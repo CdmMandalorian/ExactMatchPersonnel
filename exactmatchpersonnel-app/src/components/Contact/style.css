@@ -1,0 +1,30 @@
+input#FormControlInputName.inputContactform-control{
+    width: 420px;
+}
+input#FormControlInputEmail.inputContactform-control{
+    width: 420px;
+}
+input#FormControlInputSubject.inputContactform-control{
+    width: 420px;
+}
+input#FormControlInputNumber.inputContactform-control{
+    width: 420px;
+}
+textarea#FormControlTextarea.inputContactform-control{
+    width: 420px;
+}
+img.phone{
+    width: 4%;
+}
+img.location{
+    width: 4%;
+}
+img.email{
+    width: 4%;
+}
+label{
+    color: white;
+}
+#text{
+    color: white;
+}

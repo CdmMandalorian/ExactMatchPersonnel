@@ -12,21 +12,25 @@ function Contact() {
           Contact
         </h1>
         <Container className="contact-content">
-                    <Row className="contact" style={{ justifyContent: "center", padding: "10px" }}>
-                        <Col
+                    <Row className="contact" style={{ justifyContent: "left", padding: "10px" }}>
+                        <Col fluid
                             md={7}
                             style={{
                                 justifyContent: "center",
                                 paddingTop: "30px",
                                 paddingBottom: "50px",
                                 border: "2px solid black",
-                                maxHeight: "480px"
+                                maxHeight: "520px"
                             }}
                         >
-                            <h1 className="contactHeading" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                                Contact <strong className="green">ME</strong>
+                            <h1 className="contactHeading" style={{ fontSize: "2.1em", paddingBottom: "20px", color:  'white' }}>
+                                Contact <strong>ME</strong>
                             </h1>
-                            <Contactform />
+                            <Contactform style={{
+                                justifyContent: 'left'
+
+                                }} 
+                            />
                         </Col>
                         <Col
                             md={5}
