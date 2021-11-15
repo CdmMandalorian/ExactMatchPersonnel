@@ -16,7 +16,7 @@ const NavBar = () => {
         <>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="/">Exact Match Personnel</Navbar.Brand>
+                    <Navbar.Brand href="/" style={{ color: '#f5b51b'}}>Exact Match Personnel</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
