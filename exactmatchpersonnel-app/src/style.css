@@ -1,0 +1,28 @@
+img.socials{
+    width: 20px;
+    height: 20px;
+}
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #181C25;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3E465D;
+    border-radius: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6C789D;
+    border-radius: 12px;
+  }

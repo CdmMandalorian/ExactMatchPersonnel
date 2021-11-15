@@ -1,35 +1,45 @@
 import React, {useState, useEffect} from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Route, Routes } from 'react-router';
+import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from '../src/Assets/Images/EMPlogo.png';
 import './style.css';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Location from './components/Location/Location'
-import Services from './components/Services/Services'
+import Employees from './components/Employees/Employees'
+import Employers from './components/Employers/Employers'
 import Resources from './components/Resources/Resources'
 import Contact from './components/Contact/Contact'
+import ScrollToTop from "./components/ScrollToTop";
+import Preloader from "../src/components/Pre";
 
 function App() {
+  const [load, upadateLoad] = useState(true);
+  useEffect(() => {
+    setTimeout(() =>{
+      upadateLoad(false);
+    },1200);
+  }, []);
+
   return (
-    <Router>
-      <div>
-        <Navbar />
+    <BrowserRouter>
+    <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <NavBar />
+      <ScrollToTop />
         <Routes>
-          <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/location" component={Location} />
-          <Route path="/services" component={Services} />
-          <Route path="/resources" component={Resources} />
-          <Route path="/Contact" component={Contact} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/employees" element={<Employees />} />
+          <Route path="/employers" element={<Employers />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
+      <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

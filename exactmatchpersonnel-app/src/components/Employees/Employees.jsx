@@ -3,14 +3,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
 import logo from '../../Assets/Images/EMPlogo.png'
 
-function Services() {
+function Employees() {
     return (
-        <Container fluid className="services-container">
+        <Container fluid className="about-container">
       <Container>
         <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
-          About
+          Employees
         </h1>
-        <Row className='services-description'>
+        <Row className='about-description'>
           <Col style={{ color: 'white' }}>
             <h3>
               Exact Match Personnel is a Staffing Agency.
@@ -21,9 +21,9 @@ function Services() {
           <Col
             md={5}
             style={{ paddingTop: "20px", paddingBottom: "50px" }}
-            className="services-img"
+            className="about-img"
           >
-            <img src={logo} alt="servicesLogo" className="img-fluid" />
+            <img src={logo} alt="aboutLogo" className="img-fluid" />
           </Col>
         </Row>
       </Container>
@@ -31,4 +31,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Employees;

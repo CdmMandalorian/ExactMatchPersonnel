@@ -8,7 +8,7 @@ function Contact() {
         <Container fluid className="contact-container">
       <Container>
         <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
-          About
+          Contact
         </h1>
         <Row className='contact-description'>
           <Col style={{ color: 'white' }}>

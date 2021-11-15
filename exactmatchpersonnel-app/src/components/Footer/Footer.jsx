@@ -46,28 +46,8 @@ const Footer = () => {
                                 <br>
                                 </br>
                                 <Box>
-                                    <Link href="/registration" color="inherit">
-                                        Registration
-                                    </Link>
-                                </Box>
-                                <Box>
-                                    <Link href="/login" color="inherit">
-                                        Login
-                                    </Link>
-                                </Box>
-                                <Box>
-                                    <Link href="/account" color="inherit">
-                                        Account
-                                    </Link>
-                                </Box>
-                                <Box>
-                                    <Link href="/order" color="inherit">
-                                        Orders
-                                    </Link>
-                                </Box>
-                                <Box>
-                                    <Link href="/customerservice" color="inherit">
-                                        Customer Service
+                                    <Link href="/" color="inherit">
+                                        Home
                                     </Link>
                                 </Box>
                                 <Box>
@@ -76,28 +56,29 @@ const Footer = () => {
                                     </Link>
                                 </Box>
                                 <Box>
-                                    <Link href="/returnpolicy" color="inherit">
-                                        Return Policy
+                                    <Link href="/employees" color="inherit">
+                                        Employees
                                     </Link>
                                 </Box>
                                 <Box>
-                                    <Link href="/privacypolicy" color="inherit">
-                                        Privacy Policy
+                                    <Link href="/employers" color="inherit">
+                                        Employers
                                     </Link>
                                 </Box>
                                 <Box>
-                                    <Link href="/partners" color="inherit">
-                                        Partners
+                                    <Link href="/resources" color="inherit">
+                                        Resources
                                     </Link>
                                 </Box>
                                 <Box>
-                                    <Link href="/termsofservice" color="inherit">
-                                        Term of Service
+                                    <Link href="/contact" color="inherit">
+                                        Contact
                                     </Link>
                                 </Box>
+                                
                             </Grid>
                             <Grid item xs={12} sm={3}>
-                                <Box borderBottom={1}>Contact </Box>
+                                <Box borderBottom={1}>AEG Codes</Box>
                                 <br>
                                 </br>
                                 <Box>

@@ -8,7 +8,7 @@ function Resources() {
         <Container fluid className="resources-container">
       <Container>
         <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
-          About
+          Resources
         </h1>
         <Row className='resources-description'>
           <Col style={{ color: 'white' }}>

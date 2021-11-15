@@ -1,34 +1,40 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap'
-import './style.css';
-import logo from '../../Assets/Images/EMPlogo.png'
+import { Container, Row, Col } from "react-bootstrap";
+import "../../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import homeLogo from '../../Assets/Images/EMPlogo.png';
+
+import Type from "./Type";
 
 function Home() {
-    return (
-        <Container fluid className="home-container">
-      <Container>
-        <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
-          About
-        </h1>
-        <Row className='home-description'>
-          <Col style={{ color: 'white' }}>
-            <h3>
-              Exact Match Personnel is a Staffing Agency.
-            </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col
-            md={5}
-            style={{ paddingTop: "20px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={logo} alt="homeLogo" className="img-fluid" />
-          </Col>
-        </Row>
+  return (
+    <div>
+      <Container fluid className="home-section" id="home">
+        <Container className="home-content">
+          <Row>
+            <Col md={7} className="home-header">
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Welcome <span className="wave">👋🏻</span>
+              </h1>
+
+              <h1 className="heading-name">
+                To
+                <strong className="main-name"> Exact Match Personnel</strong>
+              </h1>
+
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <Type />
+              </div>
+            </Col>
+
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img src={homeLogo} alt="home pic" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
-    );
+    </div>
+  );
 }
 
 export default Home;
