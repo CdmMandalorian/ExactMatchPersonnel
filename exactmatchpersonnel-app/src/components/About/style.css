@@ -1,0 +1,11 @@
+div.about-description.row{
+    text-align: left;
+
+}
+div.about-img{
+    margin-left: 440px;
+    margin-right: -180px;
+}
+img.img-fluid{
+    height: 250px;
+}

@@ -25,6 +25,10 @@ img.email{
 label{
     color: white;
 }
-#text{
+h5{
     color: white;
+}
+img.imgContact-fluid{
+    width: 420px;
+    height: 420px;
 }

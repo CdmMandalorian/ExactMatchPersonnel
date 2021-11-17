@@ -33,7 +33,7 @@ export default function App() {
       </div>
       <button type="submit" class="btn btn-primary mb-3">Submit</button>
       <hr></hr>
-      <img className="phone" src={phoneSquareAlt} alt="phone" /> 909 418 - 4181 <img className="location" src={mapMarkedAlt} alt="location" /> Southern California <img className="email" src={envelopeRegular} alt="email" /> Egarcia90@verizon.net
+      <img className="phone" src={phoneSquareAlt} alt="phone" /> <h5> 909 418 - 4181 </h5> <img className="location" src={mapMarkedAlt} alt="location" /> <h5> Southern California </h5> <img className="email" src={envelopeRegular} alt="email" /> <h5>Egarcia90@verizon.net</h5>
     </form>
   );
 }

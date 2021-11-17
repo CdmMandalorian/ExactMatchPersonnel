@@ -20,7 +20,7 @@ function Contact() {
                                 paddingTop: "30px",
                                 paddingBottom: "50px",
                                 border: "2px solid black",
-                                maxHeight: "520px"
+                                maxHeight: "650px"
                             }}
                         >
                             <h1 className="contactHeading" style={{ fontSize: "2.1em", paddingBottom: "20px", color:  'white' }}>
@@ -37,7 +37,7 @@ function Contact() {
                             style={{ paddingTop: "20px", paddingBottom: "20px" }}
                             className="contact-img"
                         >
-                            <img src={logo} alt="contact" className="img-fluid" />
+                            <img src={logo} alt="contact" className="imgContact-fluid" />
                         </Col>
 
                     </Row>
