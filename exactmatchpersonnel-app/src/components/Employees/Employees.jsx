@@ -44,7 +44,7 @@ function Employees() {
         </Row>
         <Row style={{ marginTop: '2em', display: 'flex'}}>
           <Col style={{ textAlign: 'center'}}>
-          <label class="is-invalid-label">Upload your resume <span class="text-primary">*</span>
+          <label class="is-invalid-label">Upload Your Resume <span class="text-primary">*</span>
 							<div class="upload-button-wrapper" style={{ display: 'block'}}>
 								<Button class="button">Click here to upload&nbsp;a&nbsp;file</Button>
 								<input type="file" name="upload" id="resume" required="" class="is-invalid-input" data-invalid="" aria-invalid="true" />
