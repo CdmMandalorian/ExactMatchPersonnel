@@ -17,7 +17,7 @@ function About() {
             </h3>
             <h4>is a Staffing Agency that specializes matching the perfect personnel into your work enviroment.</h4>
             <h4>Working with a premier extensive network connecting candidates within thier skilled specializations.</h4>
-            <h4></h4>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
             <br></br>
             <h3>Mission</h3>
             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos pariatur, excepturi perferendis consequatur itaque eum minima ex harum sequi accusamus nostrum fugiat earum nulla repellendus animi dolore eaque odit doloribus.</h4>
