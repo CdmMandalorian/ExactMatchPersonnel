@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import './style.css';
 import logo from '../../Assets/Images/EMPlogo.png'
 
@@ -46,7 +46,7 @@ function Employees() {
           <Col style={{ textAlign: 'center'}}>
           <label class="is-invalid-label">Upload your resume <span class="text-primary">*</span>
 							<div class="upload-button-wrapper" style={{ display: 'block'}}>
-								<button class="button">Click here to upload&nbsp;a&nbsp;file</button>
+								<Button class="button">Click here to upload&nbsp;a&nbsp;file</Button>
 								<input type="file" name="upload" id="resume" required="" class="is-invalid-input" data-invalid="" aria-invalid="true" />
 								<div id="filename"></div>
 							</div>
