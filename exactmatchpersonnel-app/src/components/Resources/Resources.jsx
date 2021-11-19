@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
-import logo from '../../Assets/Images/EMPlogo.png'
 
 function Resources() {
     return (
@@ -40,7 +39,6 @@ function Resources() {
                 </ul>
               </h4>
             </Col>
-            
           </Col>
         </Row>
         <Row>
