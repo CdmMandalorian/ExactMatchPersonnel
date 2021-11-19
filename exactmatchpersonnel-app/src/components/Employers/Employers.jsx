@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
-import logo from '../../Assets/Images/EMPlogo.png'
 import Industrialcard from '../Industrialcard'
 import HandHoldingUSD from '../../Assets/Images/hand-holding-usd-solid.svg'
 import BalanceScale from '../../Assets/Images/balance-scale-solid.svg'
@@ -109,6 +108,7 @@ function Employers() {
             title='Warehouse'
           />
         </Row>
+        
       </Container>
     </Container>
   );

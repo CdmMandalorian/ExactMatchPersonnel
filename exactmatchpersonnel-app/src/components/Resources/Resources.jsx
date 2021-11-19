@@ -37,14 +37,6 @@ function Resources() {
                   <li>
                     Job 5
                   </li>
-                  <br></br>
-                  <li>
-                    Job 6
-                  </li>
-                  <br></br>
-                  <li>
-                    Job 7
-                  </li>
                 </ul>
               </h4>
             </Col>
