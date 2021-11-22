@@ -1,3 +1,10 @@
 div.employees-description2.row{
     text-align: right;
 }
+img.d-block.w-100{
+    height: 280px;
+    
+}
+div.recruitingPositions.col{
+    max-width: 450px!important;
+}
