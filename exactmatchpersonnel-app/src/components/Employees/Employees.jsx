@@ -11,7 +11,7 @@ import food from '../../Assets/Images/rod-long-kImU-9S9uh8-unsplash.jpg'
 import staff from '../../Assets/Images/sam-moqadam-gzWqHpIJMTg-unsplash.jpg'
 import office from '../../Assets/Images/andrew-neel-cckf4TsHAuw-unsplash.jpg'
 import tech from '../../Assets/Images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg'
-import construction from '../../Assets/Images/shivendu-shukla-3yoTPuYR9ZY-unsplash.jpg'
+import construction from '../../Assets/Images/scott-blake-x-ghf9LjrVg-unsplash.jpg'
 import accounting from '../../Assets/Images/kelly-sikkema-M98NRBuzbpc-unsplash.jpg'
 
 
@@ -22,7 +22,7 @@ function Employees() {
         <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
           Employees
         </h1>
-        <Row className='employees-description1'>
+        <Row fluid className='employees-description1'>
           <Col style={{ color: 'white' }}>
               <h3>
                 Looking for new opportunity
@@ -34,7 +34,7 @@ function Employees() {
           </Row>
           <br></br>
           <br></br>
-          <Row className='employees-description2'>
+          <Row fluid className='employees-description2'>
             <Col className="employees-carouselImgs"
               md={6}
               style={{ paddingTop: "10px", paddingBottom: "20px" }}
@@ -47,8 +47,8 @@ function Employees() {
                     alt="Warehouse slide"
                   />
                   <Carousel.Caption>
-                    <h3>Warehouse</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="carouselCaption">Warehouse</h3>
+                    <p className="carouselCaption">Receiver, Machine Operator, Material Handler, Shipping, Clerk, Forklift Operator, Loader, Stocker, Packer, Inventory control Manager, Warehouse Manager</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -58,8 +58,8 @@ function Employees() {
                     alt="Security slide"
                   />
                   <Carousel.Caption>
-                    <h3>Security</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="carouselCaption">Security</h3>
+                    <p className="carouselCaption">Security Guard, Screener, Surveillance Officer, Patrol Officer, Security Officer</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -69,8 +69,8 @@ function Employees() {
                     alt="RealEstate slide"
                   />
                   <Carousel.Caption>
-                    <h3>Real Estate</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className="carouselCaption">Real Estate</h3>
+                    <p className="carouselCaption">Property Manager,Real Estate Agent, Leasing Agent, Leasing Consultant, Leasing Manager, Property Manager, Title Examiner, Home Inspector</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -80,8 +80,8 @@ function Employees() {
                     alt="Medical slide"
                   />
                   <Carousel.Caption>
-                    <h3>Nursing | Medical</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="carouselCaption">Nursing | Medical</h3>
+                    <p className="carouselCaption">Register Nurse, CNA, LVN, Physical Therapist, Occupational Therapist, Medical Assistants, Radiologist, Social Workers, EMTs, Doctors</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -91,8 +91,8 @@ function Employees() {
                     alt="Legal slide"
                   />
                   <Carousel.Caption>
-                    <h3>Law | Legal</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="carouselCaption">Law | Legal</h3>
+                    <p className="carouselCaption">Legal Assistant, File Clerk, Paralegal</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -102,8 +102,8 @@ function Employees() {
                     alt="Marketing slide"
                   />
                   <Carousel.Caption>
-                    <h3>Marketing</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className="carouselCaption">Marketing</h3>
+                    <p className="carouselCaption">Assistant, Coordinator, Manager, Associate, Representatives, Specialist, Event Marketing, Advertising, Digital Social Marketing, Product Marketing, Brand Ambassador, Sales Associate Representative, Marketing Analyst</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -113,8 +113,8 @@ function Employees() {
                     alt="Food slide"
                   />
                   <Carousel.Caption>
-                    <h3>Food | Culinary</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="carouselCaption">Food | Culinary</h3>
+                    <p className="carouselCaption">Chef, Nutritionist, Dietitian, Caterer</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -125,8 +125,8 @@ function Employees() {
                     alt="Staff slide"
                   />
                   <Carousel.Caption>
-                    <h3>Event Staff</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="carouselCaption">Event Staff</h3>
+                    <p className="carouselCaption">Event Cordinators and Staff - Private Parties, Weddings, Corporate Functions, Concerts, Sporting Events, Ticketing</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -136,8 +136,8 @@ function Employees() {
                     alt="Administrative slide"
                   />
                   <Carousel.Caption>
-                    <h3>Administrative | Office</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className="carouselCaption">Administrative | Office</h3>
+                    <p className="carouselCaption">Administrative Assistants, Executive Assistants, Associates, Clerks, Office Management</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -147,8 +147,8 @@ function Employees() {
                     alt="Tech slide"
                   />
                   <Carousel.Caption>
-                    <h3>Techonology | IT</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="carouselCaption">Techonology | IT</h3>
+                    <p className="carouselCaption">Engineering, Development, Security, Analytics</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -159,8 +159,8 @@ function Employees() {
                     alt="Construction slide"
                   />
                   <Carousel.Caption>
-                    <h3>Construction</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="carouselCaption">Construction</h3>
+                    <p className="carouselCaption">Construction Crew, Management, General and Specialty Contractors</p>
                   </Carousel.Caption>
                 </Carousel.Item>
 
@@ -171,8 +171,8 @@ function Employees() {
                     alt="Accounting slide"
                   />
                   <Carousel.Caption>
-                    <h3>Accounting | Finance</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className="carouselCaption">Accounting | Finance</h3>
+                    <p className="carouselCaption">Controllers, Accountants, Bookkeepers, Assistants, Managers, Directors</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
@@ -187,13 +187,14 @@ function Employees() {
             <h4>Long Term Permanent Placement</h4>
             <h4>Full Time</h4>
             <h4>Part Time</h4>
+            <h4>PerDiem</h4>
           </Col>
         </Row>
         <Row className='employees-description3'>
-          <Col style={{ color: 'white' }}>
-          <h3>Specialize Placements</h3>
-          <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus dolorum impedit hic possimus perspiciatis sunt nostrum eveniet vero animi praesentium quos, dolor expedita quam numquam qui amet illum. Optio, provident.</h4>
-          <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo obcaecati cum placeat non vero perspiciatis voluptatum dolore dolor earum laboriosam sit molestias, ullam odio consequuntur nemo beatae dolorem dicta!</h4>
+          <Col fluid style={{ color: 'white' }}>
+          <h3>Premier Extensive Network</h3>
+          <h4>Specialized recruiting within Exact Match Personnel industry network.</h4>
+          <h4></h4>
           </Col>
         </Row>
         <Row style={{ marginTop: '2em', display: 'flex'}}>

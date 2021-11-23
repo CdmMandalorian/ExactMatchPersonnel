@@ -1,5 +1,6 @@
 div.employees-description2.row{
     text-align: right;
+    margin-left: 140px;
 }
 img.d-block.w-100{
     height: 280px;
@@ -7,4 +8,8 @@ img.d-block.w-100{
 }
 div.recruitingPositions.col{
     max-width: 450px!important;
+}
+
+div.carousel-caption{
+    text-shadow: 2px 2px black;
 }
