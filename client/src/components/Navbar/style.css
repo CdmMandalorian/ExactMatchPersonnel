@@ -1,0 +1,21 @@
+img.navLogo {
+    margin-left: 5px;
+    margin-bottom: -15px;
+}
+div#responsive-navbar-nav.navbar-collapse.collapse {
+    justify-content: end;
+}
+nav.navbar.navbar-expand-md.navbar-light.fixed-top {
+    position: absolute;
+}
+a.nav-link{
+    color: #f5b51b;
+    font-weight:660;
+}
+nav.navbar.navbar-expand-md.navbar-light.fixed-top{
+    background-color: #242424;
+    height: 140px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}

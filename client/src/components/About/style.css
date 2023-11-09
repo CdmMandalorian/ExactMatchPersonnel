@@ -1,0 +1,19 @@
+div.about-description.row{
+    text-align: center;
+
+}
+div.about-img{
+    margin-left: 440px;
+    margin-right: -180px;
+}
+img.img-fluid{
+    height: 250px;
+}
+div.about-container.container-fluid {
+    background-color: #110e1b;
+    height: 955px;
+    padding-top: 188px;
+}
+div.jobIcons.container {
+    height: 60px;
+}

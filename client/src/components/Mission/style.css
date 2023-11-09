@@ -1,0 +1,16 @@
+div.mission-description.row{
+    text-align: left;
+
+}
+div.mission-img{
+    margin-left: 509px;
+    margin-right: -180px;
+}
+img.img-fluid{
+    height: 250px;
+}
+div.mission-container.container-fluid {
+    background-color: #110e1b;
+    height: 955px;
+    padding-top: 188px;
+}

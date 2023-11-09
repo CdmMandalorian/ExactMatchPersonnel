@@ -1,0 +1,46 @@
+
+input#FormControlInputEmail.inputContactform-control{
+    width: 420px;
+}
+input#FormControlInputSubject.inputContactform-control{
+    width: 420px;
+}
+
+textarea#FormControlTextarea.inputContactform-control{
+    width: 420px;
+}
+img.phone{
+    width: 4%;
+}
+img.location{
+    width: 4%;
+}
+img.email{
+    width: 4%;
+}
+label{
+    color: white;
+}
+h5{
+    color: white;
+}
+img.imgContact-fluid{
+    width: 420px;
+    height: 420px;
+}
+div.form-group1{
+    margin-left: 20px;
+    
+}
+div.form-group2{
+    margin-left: 9px;
+
+}
+img.img-fluid-contact {
+    height: 450px;
+}
+div#contact.contact-section.container-fluid {
+    background-color: #110e1b;
+    height: 955px;
+    padding-top: 188px;
+}
