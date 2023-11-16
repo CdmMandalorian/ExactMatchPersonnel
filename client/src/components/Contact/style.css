@@ -44,3 +44,9 @@ div#contact.contact-section.container-fluid {
     height: 955px;
     padding-top: 188px;
 }
+.errorMessage {
+    color: #fff;
+}
+input#resume.is-invalid-input {
+    color: #fff;
+}

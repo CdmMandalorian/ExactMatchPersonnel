@@ -38,7 +38,7 @@ const ContactForm = () => {
                       type='text'
                       name='name'
                       {...register('name', {
-                        required: { value: true, message: 'Please enter your name' },
+                        required: { value: true, message: 'Please enter your Name' },
                         maxLength: {
                           value: 30,
                           message: 'Please use 30 characters or less'
@@ -61,7 +61,7 @@ const ContactForm = () => {
                       placeholder='Email address'
                     ></input>
                     {errors.email && (
-                      <span className='errorMessage'>Please enter a valid email address</span>
+                      <span className='errorMessage'>Please enter a valid Email</span>
                     )}
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const ContactForm = () => {
                       type='tel'
                       name='phone'
                       {...register('phone', {
-                        required: { value: true, message: 'Please enter your phone' },
+                        required: { value: true, message: 'Please enter your Phone' },
                         maxLength: {
                           value: 14,
                           message: 'Please use 14 characters or less'
@@ -109,7 +109,7 @@ const ContactForm = () => {
                       type='text'
                       name='subject'
                       {...register('subject', {
-                        required: { value: true, message: 'Please enter a subject' },
+                        required: { value: true, message: 'Please enter a Subject' },
                         maxLength: {
                           value: 75,
                           message: 'Subject cannot exceed 75 characters'
@@ -135,12 +135,31 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Message'
                     ></textarea>
-                    {errors.message && <span className='errorMessage'>Please enter a message</span>}
+                    {errors.message && <span className='errorMessage'>Please enter a Message</span>}
                   </div>
                 </div>
-                <button class="btn btn-primary mb-3" type='submit' style={{marginTop: 10}}>
-                  Submit
-                </button>
+                {/* Row 5 of form */}
+                <div className='row formRow'>
+                  <div className='col'>
+                    <div class="upload-button-wrapper" style={{ display: 'block' }}>
+                      <input
+                       type="file"
+                        name="upload"
+                        id="resume"
+                        required=""
+                        class="is-invalid-input"
+                        data-invalid=""
+                        aria-invalid="true"
+                        {...register('file' 
+                        )}
+                      ></input>
+                      <div id="filename"></div>
+                    </div>
+                    <button class="btn btn-primary mb-3" type='submit' style={{ marginTop: 10 }}>
+                      &nbsp;Submit&nbsp;
+                    </button>
+                  </div>
+                </div>
                 <hr></hr>
                   <span>
                       <FontAwesomeIcon icon={faSquarePhone} style={{color: "#f5b51b"}} />

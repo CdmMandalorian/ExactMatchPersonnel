@@ -24,7 +24,7 @@ function Contact () {
                                 paddingTop: "30px",
                                 paddingBottom: "50px",
                                 border: "2px solid white",
-                                maxHeight: "600px"
+                                maxHeight: "740px"
                             }}
                         >
                             <h1 className="contactHeading" style={{ fontSize: "2.1em", paddingBottom: "20px", color: 'rgba(245, 181, 27)' }}>

@@ -23,18 +23,44 @@ function About() {
         </h1>
         <Row className='about-description' style={{ color: 'white' }}>
           <Col >
-            <h3>
-              Exact Match Personnel
-            </h3>
-            <h4>is a Staffing Agency that specializes matching the perfect personnel into your work enviroment.</h4>
-            <h4>Working with a premier extensive network connecting candidates within thier skilled specializations.</h4>
+            <h2>Exact Match Personnel</h2>
+            <h3>Employers</h3>
+            <h3>Looking for Workforce?</h3>
+            <h4>E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
+            <h4>Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
+            <br></br>
+            <h3>Employees</h3>
+            <h4>Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
+            <h4>E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
             <br></br>
-            <h3>Commitment</h3>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus est eaque, amet dolor optio similique, ut in dolorum ab repellat consectetur voluptatum aliquid, libero officiis eligendi vitae necessitatibus? Dolorum.</h4>
             <br></br>
-            <Col className="jobIcons">
-              <Container className="jobIcons">
+            <br></br>
+            <Col className="jobs">
+              <Container className="jobs">
+                <Row>
+                  <Col className="recruitingPositions_item">
+                  FULL TIME
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  PART TIME
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  PER DIEM
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  DIRECT HIRE
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  TEMPORARY PLACEMENT
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  LONG TERM PLACEMENT
+                  </Col>
+                  <Col className="recruitingPositions_item">
+                  ON CALL SUBSTITUTES
+                  </Col>
+                </Row>
                   <hr></hr>
                   <Row>  
                     <Col className="jobIcons_item">

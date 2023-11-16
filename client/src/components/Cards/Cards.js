@@ -10,34 +10,34 @@ function Services() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='images/jana-bemol-uh_eCMdG5Z0-unsplash.jpg'
+              text='Exact Match Personnel values your Conection, Time and Energy. We are Open and Understanding. '
               label='Connection'
               
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise Safely'
+              src='images/claudio-schwarz-L8iPDE99z9c-unsplash.jpg'
+              text='Safety is A Priority. We Will Establish Safety Protocols to Mantain High Safety Standards.'
               label='Safety'
               
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Commitment'
-              
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='images/lindsay-henwood-7_kRuX1hSXM-unsplash.jpg'
+              text='Clear Pathways for Proggression '
               label='Progress'
               
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/marko-petek-tuxGxnwZP4A-unsplash.jpg'
+              text='Committed From Iception'
+              label='Commitment'
+              
+            />
+            <CardItem
+              src='images/federico-beccari-ahi73ZN5P0Y-unsplash.jpg'
+              text='A Diverse Range of Connections'
               label='Diverse'
               
             />
