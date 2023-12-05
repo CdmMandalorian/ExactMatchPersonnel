@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
-import { Box } from '@material-ui/core';
 import logo from '../../Assets/navbarlogo/EMPlogo2.png'
 
 function Footer() {
