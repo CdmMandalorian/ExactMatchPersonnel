@@ -22,3 +22,124 @@
     background: #6C789D;
     border-radius: 12px;
 }
+@media screen and (width <= 1980px) {
+     section.social-media{
+        margin-left: 319px!important;
+    }
+}
+@media screen and (width <= 1655px) {
+    div.mission-img {
+        margin-right: 0!important;
+    }
+}
+@media screen and (width <= 1399px) {
+    div.mission-img {
+        margin-left: 420px!important;
+    }
+}
+@media screen and (width <= 1362px) {
+    div.social-media-wrap{
+        margin-top: 35px!important;
+    }
+}
+@media screen and (width <= 1257px) {
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (width <= 1200px) {
+    
+}
+@media screen and (width <= 1184px) {
+    
+}
+@media screen and (width <= 1112px) {
+    
+}
+@media screen and (width <= 1080px) {
+    
+}
+@media screen and (width <= 1024px) {
+    div.mission-img {
+        margin-left:153px!important;
+        margin-right: 0!important;
+    }
+}
+@media screen and (width <= 1010px) {
+    
+}
+@media screen and (width <=954px) {
+   
+}
+@media screen and (width <=935px) {
+    
+}
+@media screen and (width <=918px) {
+    
+}
+@media screen and (width <=898px) {
+     
+}
+@media screen and (width <=850px) {
+   
+}
+@media screen and (width <= 827px) {
+     
+}
+@media screen and (width <= 768px) {
+    
+}
+@media screen and (width <= 720px) {
+    
+}
+@media screen and (width <= 656px) {
+    
+}
+@media screen and (width <= 600px){
+   
+}
+@media screen and (width <= 589px) {
+    
+}
+@media screen and (width <= 566px) {
+    
+}
+@media screen and (width <= 501px) {
+    
+}
+@media screen and (width <= 494px) {
+    
+}
+@media screen and (width <= 477px) {
+    
+}
+@media screen and (width <= 430px) {
+    
+}
+@media screen and (width <= 412px) {
+    
+}
+@media screen and (width <= 389px) {
+    
+}
+@media screen and (width <= 381px) {
+    
+}
+@media screen and (width <= 375px) {
+    
+}
+@media screen and (width <= 360px) {
+   
+}
+@media screen and (width <= 335px) {
+} 
+@media screen and (width <= 334px) {
+    
+}
+@media screen and (width <= 323px) {
+  
+}
+@media screen and (width <= 320px) {
+    img.img-fluid-contact {
+        height: 104px;
+    }
+}
