@@ -9,7 +9,7 @@ nav.navbar.navbar-expand-md.navbar-light.fixed-top {
     position: absolute;
 }
 a.nav-link{
-    color: #f5b51b;
+    color: #f5b51b!important;
     font-weight:660;
 }
 nav.navbar.navbar-expand-md.navbar-light.fixed-top{
@@ -17,5 +17,5 @@ nav.navbar.navbar-expand-md.navbar-light.fixed-top{
     height: 140px;
 }
 .nav-link:focus, .nav-link:hover {
-    color: white;
+    color: white!important;
 }
