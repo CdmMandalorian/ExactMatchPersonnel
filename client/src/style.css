@@ -41,13 +41,61 @@
     div.social-media-wrap{
         margin-top: 35px!important;
     }
+    .hero-container > h1 {
+        font-size: 94px!important;
+    }
+    div.about-container.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    div.mission-container.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    div#contact.contact-section.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
-@media screen and (width <= 1257px) {
-    
+@media screen and (width <= 1318px) {
+    div.social-media-wrap {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    section.social-media {
+        width: 75%;
+    }
+}
+@media screen and (width <= 1272px) {
+    section.social-media {
+        width: 74%;
+    }
+    a.social-logo {
+        margin-left: 0;
+    }
+}
+@media screen and (width <= 1224px) {
+    div.social-media-wrap {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    a.social-logo {
+        margin-left: -36px;
+    }
+    .hero-container > h1 {
+        font-size: 90px!important;
+    }
+}
+@media screen and (width <= 1223px) {
+    section.social-media{
+       margin-left: 300px!important;
+   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (width <= 1200px) {
-    
+    section.social-media{
+        margin-left: 295px!important;
+    }
 }
 @media screen and (width <= 1184px) {
     
