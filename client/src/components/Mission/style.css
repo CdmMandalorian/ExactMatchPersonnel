@@ -8,9 +8,8 @@ div.mission-img{
 }
 img.img-fluid{
     height: 250px;
+    margin-left: 3px;
 }
 div.mission-container.container-fluid {
     background-color: #110e1b;
-    height: 955px;
-    padding-top: 188px;
 }

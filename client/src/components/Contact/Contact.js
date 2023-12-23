@@ -17,14 +17,13 @@ function Contact () {
 
                 <Container className="contact-content">
                     <Row className="contact" style={{ justifyContent: "center", padding: "10px" }}>
-                        <Col
+                        <Col className="contact"
                             md={7}
                             style={{
                                 justifyContent: "center",
                                 paddingTop: "30px",
                                 paddingBottom: "50px",
                                 border: "2px solid white",
-                                maxHeight: "740px"
                             }}
                         >
                             <h1 className="contactHeading" style={{ fontSize: "2.1em", paddingBottom: "20px", color: 'rgba(245, 181, 27)' }}>

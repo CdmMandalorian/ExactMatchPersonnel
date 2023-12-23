@@ -23,16 +23,16 @@ function About() {
         </h1>
         <Row className='about-description' style={{ color: 'white' }}>
           <Col >
-            <h2>Exact Match Personnel</h2>
-            <h3>Employers</h3>
-            <h3>Looking for Workforce?</h3>
-            <h4>E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
-            <h4>Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
+            <h2 className="about">Exact Match Personnel</h2>
+            <h3 className="about">Employers</h3>
+            <h3 className="about">Looking for Workforce?</h3>
+            <h4 className="about">E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
+            <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
             <br></br>
-            <h3>Employees</h3>
-            <h4>Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
-            <h4>E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
-            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
+            <h3 className="about">Employees</h3>
+            <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
+            <h4 className="about">E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
+            <h4 className="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
             <br></br>
             <br></br>
             <br></br>

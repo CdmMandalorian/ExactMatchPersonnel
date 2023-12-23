@@ -7,7 +7,7 @@ import Type from './Type';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>EXACT MATCH PERSONNEL</h1>
+      <h1 className="headline">EXACT MATCH PERSONNEL</h1>
       <p>Your Journey, Your Opportunity</p>
       
       <div className='progressQuotes'>
