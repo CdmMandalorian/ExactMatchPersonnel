@@ -7,7 +7,7 @@ function Mission() {
     return (
         <Container fluid className="mission-container">
       <Container>
-        <h1 className="mission"style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
+        <h1 className="mission"style={{color: 'rgba(245, 181, 27)' }}>
           MISSION
         </h1>
         <Row className='mission-description'>
@@ -24,9 +24,8 @@ function Mission() {
           </Col>
         </Row>
         <Row className="mission-img">
-          <Col
+          <Col className="mission-img"
             md={5}
-            style={{ paddingTop: "20px", paddingBottom: "50px" }}
           >
             <img src={logo} alt="missionLogo" className="img-fluid" />
           </Col>

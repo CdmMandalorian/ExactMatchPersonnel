@@ -37,9 +37,139 @@
 /*  Large devices (desktops, 992px and up) */
 @media  (min-width: 769px) and (max-width: 992px) 
 { 
-
+    div.hero-container {
+        margin-top: 0px;
+    }
+    img.img-fluid-contact {
+        height: 388px;
+    }
+    div.contact-img.col-md-5 {
+        height: 330px;
+    }
+    h1.headline {
+        font-size: 74px;
+    }
+    h2{
+        font-size: 1.45rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    h5{
+        font-size: .95rem;
+        margin-bottom: 0;
+    }
+    div.mission-img.col-md-5 {
+        padding-bottom: 10px;
+        margin-left: 192px;
+        padding-top: 0;
+    } 
+    div.mission-container.container-fluid {
+        height: 620px;
+        padding-top: 100px;
+    }
+    div.mission-img.row {
+        max-width: 600px;
+        margin-left: 175px;
+    }
+    nav.navbar.navbar-expand-md.navbar-light.fixed-top {
+        height: 100px;
+    }
+    img.img-fluid.logo {
+        height: 155px;
+    }
+    div.progressQuotes {
+        margin-top: 97px;
+    }
+    div.about-container.container-fluid {
+        height: 620px;
+        padding-top: 100px;
+    }
+    br.about2 {
+        display: none;
+    }
+    br.about3 {
+        display: none;
+    }
+    img.img-fluid {
+        height: 187px;
+    }
+    div#contact.contact-section.container-fluid {
+        height: 620px;
+        padding-top: 100px;
+    }
+    div.contact.row {
+        padding-bottom: 0px;
+    }
+    div.contact.col-md-7 {
+        padding-top: 7px;
+        padding-bottom: 0;
+    }
+    h1.contactHeading {
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }
+    form#contact-form {
+        max-height: 437px;
+    }
+    button.btn.btn-primary.mb-3 {
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+    .social-media {
+        max-width: 600px;                                                                                                                            ;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    } 
 }
-
+@media screen and (width <= 1024px) {
+    h1.headline {
+     font-size: 74px;
+    } 
+    div#contact.contact-section.container-fluid {
+        height: 768px;
+        padding-top: 147px;
+    }
+    img.img-fluid-contact {
+        height: 418px;
+    }
+    div.about-container.container-fluid {
+        height: 768px;
+        padding-top: 140px;
+    }
+    div.mission-container.container-fluid {
+        height: 768px;
+        padding-top: 140px;
+    }
+    div.col-md-5{
+        padding-bottom: 36px;
+    }
+    div.mission-img {
+        margin-left: 333px;
+    }
+    div.mission-img-.col-md-5 {
+        padding-bottom: 50px;
+        margin-left: 342px;
+    }
+    .social-media {
+        margin-left: 265px;
+        max-width: 750px;                                                                                                                            ;
+    } 
+    div.social-media-wrap {
+        max-width: 760px;
+    }
+}
+    
+@media  (min-width: 1125px) and (max-width: 1199px) 
+{ 
+    h1.headline {
+        font-size: 74px;
+       } 
+}
 /*  X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 993px) and (max-width: 1200px) 
 { 
@@ -84,8 +214,8 @@
         font-size: .80rem;
     }
     .social-media {
-        margin-left: 190px;
-        max-width: 800px;
+        margin-left: 393px;
+        max-width: 798px;                                                                                                                            ;
     }
     div.footer-container {
         height: 88px;
@@ -93,11 +223,22 @@
     .hero.container {
         margin-top: 45px;
     }
-    div.mission-img {
-        margin-left: 433px;
+    div.mission-img.row {
+        margin-left: 10px;
     }
+    h1.headline {
+        font-size: 88px;
+       }
+    div.mission-img-.col-md-5 {
+        padding-bottom: 50px;
+        margin-left: 413px;
+    } 
 }
-
+@media screen and (width <= 1308px) {
+   h1.headline {
+    font-size: 94px;
+   } 
+}
 /*  XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1201px) and (max-width: 1400px) {
     div.about-container.container-fluid {
@@ -106,6 +247,7 @@
     }
     div#contact.contact-section.container-fluid {
         height: 900px;
+        padding-top: 154px;
     }
     div.mission-container.container-fluid {
         height: 900px;
@@ -120,13 +262,26 @@
     }
     div.mission-img.row {
         width: 700px;
+        margin-left: 6px;
     }
     img.img-fluid{
         height: 250px;
         margin-left: 6px;
     }
+    .social-media {
+        margin-left: 227px;
+    }
+    .social-media-wrap {
+        margin-left: 184px;
+    }
+    h1.headline{
+        font-size: 100px;
+    }
+    div.mission-img-.col-md-5 {
+        padding-bottom: 50px;
+    }
 }
-@media (min-width: 1401px) and (max-width: 1980px) {
+@media (min-width: 1401px) and (max-width: 1920px) {
     div.about-container.container-fluid {
         height: 1080px;
         padding-top: 188px;
@@ -157,8 +312,8 @@
     img.img-fluid{
         height: 250px;
     }
-    div.mission-img {
-        margin-left: 509px;
+    div.mission-img.row {
+        margin-left: 7px;
     }
     nav.navbar.navbar-expand-md.navbar-light.fixed-top {
         height: 140px;
@@ -177,10 +332,16 @@
         font-size: .875rem;
     }
     .social-media {
-        margin-left: 340px;
+        margin-left: 463px;
+    }
+    h1.headline{
+        font-size: 100px;
+    }
+    div.mission-img-.col-md-5 {
+        padding-bottom: 50px;
     }
 }
- @media (min-width: 1981px) and (max-width: 2560px) {
+ @media (min-width: 1921px) and (max-width: 2560px) {
     div.about-container.container-fluid {
         height: 1440px;
         padding-top: 280px;
@@ -190,11 +351,24 @@
     }
     div.mission-container.container-fluid {
         height: 1440px;
-        padding-top: 198px;
+        padding-top: 280px;
     }
-    div.cards{
+    div.cards {
         height: 1440px;
         padding-top: 200px;
+    }
+    h1.headline {
+        font-size: 100px;
+    }
+    h1.mission {
+        font-size: 2.1rem;
+    }
+    h1.about {
+        font-size: 2.1rem;
+    }
+    h1.contactHeading {
+        font-size: 2.1rem;
+        padding-bottom: 20px;
     }
     h4{
         font-size: 2rem;
@@ -205,11 +379,16 @@
     h2{
         font-size: 2.5rem;
     }
-    img.img-fluid{
+    img.img-fluid {
         height: 350px;
     }
-    div.mission-img {
-        margin-left: 455px;
+    div.mission-img.row {
+        margin-left: 15px;
+        
+    }
+    div.mission-img-.col-md-5 {
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
     nav.navbar.navbar-expand-md.navbar-light.fixed-top {
         height: 188px;
@@ -217,20 +396,42 @@
     div#contact.contact-section.container-fluid {
         padding-top: 300px;
     }
-    .social-logo{
-        font-size: 2.5rem;
+    .social-logo {
+        font-size: 2rem;
+        margin-left: -103px;
     }
     .social-media-wrap {
-        width: 1240px;
-        max-width: 1180px;
+        max-width: 1240px;
+        width: 1010px;
+        margin-left: 497px;
     }
     .website-rights {
         font-size: 1.375rem;
     }
     .social-media {
-        margin-left: 281px;
+        margin-left: -420px;
     }
     div.footer-container {
-        height: 100px;
+        height: 108px;
+    }
+    div.contact.row {
+        padding-top: 10px;
+    }
+    div.contact.col-md-7 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    div.contact-img.col-md-5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    img.navLogo {
+        height: 250px;
+    }
+    h1.mission { 
+        font-size: 2.1rem;
+    }
+    nav.navbar.navbar-expand-md.navbar-light.fixed-top{
+        height: 140px;
     }
 }

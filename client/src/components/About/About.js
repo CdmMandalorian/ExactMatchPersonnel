@@ -18,24 +18,24 @@ function About() {
     return (
         <Container fluid className="about-container">
       <Container>
-        <h1 style={{ fontSize: '2.1em', color: 'rgba(245, 181, 27)' }}>
+        <h1 className="about" style={{color: 'rgba(245, 181, 27)' }}>
           ABOUT
         </h1>
-        <Row className='about-description' style={{ color: 'white' }}>
+        <Row className='about-description' style={{color: 'white' }}>
           <Col >
             <h2 className="about">Exact Match Personnel</h2>
             <h3 className="about">Employers</h3>
             <h3 className="about">Looking for Workforce?</h3>
             <h4 className="about">E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
             <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
-            <br></br>
+            <br className="aboutBR"></br>
             <h3 className="about">Employees</h3>
             <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
             <h4 className="about">E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
             <h4 className="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br className="about1"></br>
+            <br className="about2"></br>
+            <br className="about3"></br>
             <Col className="jobs">
               <Container className="jobs">
                 <Row>
@@ -87,7 +87,7 @@ function About() {
                           <FontAwesomeIcon icon={faUtensils} style={{color: "#f5b51b",paddingRight: "2%"}} />
                           <FontAwesomeIcon icon={faBreadSlice} style={{color: "#f5b51b"}} />
                     </Col>
-                    <Col>
+                    <Col className="jobIcons_item">
                       Technology
                         <br></br>
                         <FontAwesomeIcon icon={faNetworkWired} style={{color: "#f5b51b",paddingRight: "7%"}} />
