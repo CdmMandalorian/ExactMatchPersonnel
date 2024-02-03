@@ -57,7 +57,7 @@ img.img-fluid {
 /* --------- */
 .hero-container {
     background-color: #110e1b;
-    background-image: url("./Assets/Images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+    /* background-image: url("./Assets/Images/henning-witzel-ukvgqriuOgo-unsplash.jpg"); */
     height: 100vh;
     width: 100%;
     display: flex;
