@@ -1,437 +1,663 @@
 /* --------- */
 /*Scrollbar   */
 /* --------- */
-
 ::-webkit-scrollbar {
     width: 7px;
 }
-  
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: #181C25;
 }
-  
+
 /* Handle */
-  ::-webkit-scrollbar-thumb {
-  background: #3E465D;
+::-webkit-scrollbar-thumb {
+    background: #3E465D;
     border-radius: 12px;
 }
-  
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #6C789D;
     border-radius: 12px;
 }
-/* Small devices (landscape phones, 576px and up)  */
-@media (max-width: 576px) 
-{ 
+
+/* --------- */
+/*Navbar   */
+/* --------- */
+div#responsive-navbar-nav.navbar-collapse.collapse {
+    justify-content: end;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.fixed-top {
+    position: absolute;
+}
+
+a.nav-link {
+    color: #f5b51b !important;
+    font-weight: 660;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.fixed-top {
+    background-color: #242424;
+    height: 140px;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: white !important;
+}
+
+img.img-fluid {
+    height: 250px;
+    margin-left: 3px;
+}
+
+/* --------- */
+/*Hero Container   */
+/* --------- */
+.hero-container {
+    background-color: #110e1b;
+    background-image: url("./Assets/Images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-top: 100px;
+}
+
+.hero-container>h1 {
+    color: #fff;
+    margin-top: -100px;
+}
+
+.hero-container>p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+h1.headline {
+    font-size: 100px;
+}
+
+.Typewriter__wrapper {
+    font-size: 1.7em;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+    font-size: 1.9em;
+    color: #fff !important;
+}
+
+div.Typewriter {
+    max-width: 900px;
 
 }
 
-/*  Medium devices (tablets, 768px and up) */
-@media  (min-width: 577px) and (max-width: 768px) 
-{ 
+div.progressQuotes {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-height: 50px;
+    margin-top: 220px;
 
 }
 
-/*  Large devices (desktops, 992px and up) */
-@media  (min-width: 769px) and (max-width: 992px) 
-{ 
-    div.hero-container {
-        margin-top: 0px;
+/* --------- */
+/*About   */
+/* --------- */
+.about-container.container-fluid {
+    height: 1080px;
+    padding-top: 175px;
+}
+
+/* --------- */
+/*Mision   */
+/* --------- */
+.mission-container.container-fluid {
+    height: 1080px;
+    padding-top: 175px;
+}
+
+.mission-description.row {
+    text-align: left;
+}
+
+img.missionImg-fluid {
+    height: 350px;
+}
+
+.mission-img.row {
+    margin-left: 440px;
+}
+
+/* --------- */
+/*Contact   */
+/* --------- */
+#contact.contact-section.container-fluid {
+    height: 1080px;
+    padding-top: 175px;
+}
+
+input#FormControlInputEmail.inputContactform-control{
+    width: 420px;
+}
+input#FormControlInputSubject.inputContactform-control{
+    width: 420px;
+}
+
+textarea#FormControlTextarea.inputContactform-control{
+    width: 420px;
+}
+img.phone{
+    width: 4%;
+}
+img.location{
+    width: 4%;
+}
+img.email{
+    width: 4%;
+}
+img.imgContact-fluid{
+    width: 420px;
+    height: 420px;
+}
+div.form-group1{
+    margin-left: 20px;
+    
+}
+div.form-group2{
+    margin-left: 9px;
+
+}
+img.img-fluid-contact {
+    height: 450px;
+}
+
+
+/* --------- */
+/*Footer   */
+/* --------- */
+.social-media-wrap {
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.social-icons {
+    width: 240px;
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1279px;
+        padding-top: 200px;
     }
-    img.img-fluid-contact {
-        height: 388px;
+    h1.about {
+        font-size: 3rem;
     }
-    div.contact-img.col-md-5 {
-        height: 330px;
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1279px;
+        padding-top: 200px;
     }
-    h1.headline {
-        font-size: 74px;
+    h1.mission {
+        font-size: 3rem;
     }
-    h2{
+    /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        height: 1279px;
+        padding-top: 200px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1279px;
+        padding-top: 200px;
+    }
+    h1.contactHeading {
+        font-size: 3rem;
+    }
+}
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1201px) and (max-width: 1440px) {
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 900px;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 900px;
+    }
+    img.missionImg-fluid {
+        height: 290px;
+    }
+    .mission-img.row {
+        margin-left: 490px;
+    }
+    /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        height: 1168px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 900px;
+    }
+}
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        font-size: 88px;
+        margin-top: -138px;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 800px;
+    }
+    h1.about {
+        font-size: 2.5rem;
+    }
+    h2.about{
         font-size: 1.45rem;
     }
-    h3{
+    h3.about{
         font-size: 1.25rem;
     }
-    h4{
+    h4.about{
         font-size: 1rem;
     }
-    h5{
-        font-size: .95rem;
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 800px;
+    }
+    h1.mission {
+        font-size: 2.5rem;
+    }
+    h2.mission{
+        font-size: 1.45rem;
+    }
+    h3.mission{
+        font-size: 1.25rem;
+    }
+    h4.mission{
+        font-size: 1rem;
+    }
+    img.missionImg-fluid {
+        height: 286px;
+    }
+    .mission-img.row {
+        margin-left: 416px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 800px;
+    }
+    h1.contactHeading {
+        font-size: 2rem;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+    small.website-rights {
+        margin-left: 8px;
+    }
+}
+@media screen and (width <= 1024px) {
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        font-size: 75px;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 768px;
+        padding-top: 150px;
+    }
+     /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 768px;
+        padding-top: 150px;
+    }
+    .mission-img.row {
+        margin-left: 324px;
+    }
+    img.missionImg-fluid {
+        height: 280px;
+    }
+    /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        padding-top: 150px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 768px;
+        padding-top: 150px;
+    }
+    img.img-fluid-contact {
+        height: 416px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+    .social-media-wrap {
+        margin-left: 215px;
+    }
+    small.website-rights {
+        margin-left: 8px;
+    }
+    a.social-logo {
+        width: 60px;
+    }
+}
+/*  Large devices (desktops, 992px and up) */
+@media  (min-width: 769px) and (max-width: 992px) {
+
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 620px;
+    }
+    h1.about {
+        font-size: 2rem;
         margin-bottom: 0;
     }
-    div.mission-img.col-md-5 {
-        padding-bottom: 10px;
-        margin-left: 192px;
-        padding-top: 0;
-    } 
-    div.mission-container.container-fluid {
-        height: 620px;
-        padding-top: 100px;
+    h2.about{
+        font-size: 1.45rem;
+        margin-bottom: 0;
     }
-    div.mission-img.row {
-        max-width: 600px;
-        margin-left: 175px;
+    h3.about{
+        font-size: 1.25rem;
+        margin-bottom: 0;
     }
-    nav.navbar.navbar-expand-md.navbar-light.fixed-top {
-        height: 100px;
+    h4.about{
+        font-size: 1rem;
+        margin-bottom: 0;
     }
-    img.img-fluid.logo {
-        height: 155px;
-    }
-    div.progressQuotes {
-        margin-top: 97px;
-    }
-    div.about-container.container-fluid {
-        height: 620px;
-        padding-top: 100px;
-    }
+
     br.about2 {
         display: none;
     }
     br.about3 {
         display: none;
     }
-    img.img-fluid {
-        height: 187px;
-    }
-    div#contact.contact-section.container-fluid {
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
         height: 620px;
-        padding-top: 100px;
-    }
-    div.contact.row {
-        padding-bottom: 0px;
-    }
-    div.contact.col-md-7 {
-        padding-top: 7px;
-        padding-bottom: 0;
-    }
-    h1.contactHeading {
-        padding-bottom: 5px;
-        margin-bottom: 0;
-    }
-    form#contact-form {
-        max-height: 437px;
-    }
-    button.btn.btn-primary.mb-3 {
-        margin-top: 7px;
-        margin-bottom: 0px;
-    }
-    .social-media {
-        max-width: 600px;                                                                                                                            ;
-    }
-    .Typewriter__wrapper {
-        font-size: 1.2rem;
-    } 
-}
-@media screen and (width <= 1024px) {
-    h1.headline {
-     font-size: 74px;
-    } 
-    div#contact.contact-section.container-fluid {
-        height: 768px;
-        padding-top: 147px;
-    }
-    img.img-fluid-contact {
-        height: 418px;
-    }
-    div.about-container.container-fluid {
-        height: 768px;
-        padding-top: 140px;
-    }
-    div.mission-container.container-fluid {
-        height: 768px;
-        padding-top: 140px;
-    }
-    div.col-md-5{
-        padding-bottom: 36px;
-    }
-    div.mission-img {
-        margin-left: 333px;
-    }
-    div.mission-img-.col-md-5 {
-        padding-bottom: 50px;
-        margin-left: 342px;
-    }
-    .social-media {
-        margin-left: 265px;
-        max-width: 750px;                                                                                                                            ;
-    } 
-    div.social-media-wrap {
-        max-width: 760px;
-    }
-}
-    
-@media  (min-width: 1125px) and (max-width: 1199px) 
-{ 
-    h1.headline {
-        font-size: 74px;
-       } 
-}
-/*  X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 993px) and (max-width: 1200px) 
-{ 
-    div.about-container.container-fluid {
-        height: 800px;
-        padding-top: 140px;
-    }
-    div.mission-img.row {
-        width: 600px;
-    }
-    div.mission-container.container-fluid {
-        height: 800px;
-        padding-top: 140px;
-    }
-    h1.headline{
-        font-size: 88px;
-    }
-    h2{
-        font-size: 1.45rem;
-    }
-    h3{
-        font-size: 1.25rem;
-    }
-    h4{
-        font-size: 1rem;
-    }
-    div#contact.contact-section.container-fluid {
-        height: 800px;
-        padding-top: 154px;
-    }
-    div.contact.col-md-7 {
-        max-height: 600px;
-    }
-    .social-logo{
-        font-size: 1.5rem;
-        margin-left: -20px;
-    }
-    .social-media-wrap {
-        max-width: 800px;
-    }
-    .website-rights {
-        font-size: .80rem;
-    }
-    .social-media {
-        margin-left: 393px;
-        max-width: 798px;                                                                                                                            ;
-    }
-    div.footer-container {
-        height: 88px;
-    }
-    .hero.container {
-        margin-top: 45px;
-    }
-    div.mission-img.row {
-        margin-left: 10px;
-    }
-    h1.headline {
-        font-size: 88px;
-       }
-    div.mission-img-.col-md-5 {
-        padding-bottom: 50px;
-        margin-left: 413px;
-    } 
-}
-@media screen and (width <= 1308px) {
-   h1.headline {
-    font-size: 94px;
-   } 
-}
-/*  XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1201px) and (max-width: 1400px) {
-    div.about-container.container-fluid {
-        height: 900px;
-        padding-top: 155px;
-    }
-    div#contact.contact-section.container-fluid {
-        height: 900px;
-        padding-top: 154px;
-    }
-    div.mission-container.container-fluid {
-        height: 900px;
-        padding-top: 155px;
-    }
-    div.cards{
-        height: 1135px;
-        padding-top: 150px;
-    }
-    div.footer-container {
-        height: 88px;
-    }
-    div.mission-img.row {
-        width: 700px;
-        margin-left: 6px;
-    }
-    img.img-fluid{
-        height: 250px;
-        margin-left: 6px;
-    }
-    .social-media {
-        margin-left: 227px;
-    }
-    .social-media-wrap {
-        margin-left: 184px;
-    }
-    h1.headline{
-        font-size: 100px;
-    }
-    div.mission-img-.col-md-5 {
-        padding-bottom: 50px;
-    }
-}
-@media (min-width: 1401px) and (max-width: 1920px) {
-    div.about-container.container-fluid {
-        height: 1080px;
-        padding-top: 188px;
-    }
-    div#contact.contact-section.container-fluid {
-        height: 1080px;
-    }
-    div.mission-container.container-fluid {
-        height: 1080px;
-        padding-top: 188px;
-    }
-    div.cards{
-        height: 1440px;
-        padding-top: 150px;
-    }
-    div.footer-container {
-        height: 88px;
-    }
-    h4{
-        font-size: 1.5rem;
-    }
-    h3{
-        font-size: 1.75rem;
-    }
-    h2{
-        font-size: 2rem;
-    }
-    img.img-fluid{
-        height: 250px;
-    }
-    div.mission-img.row {
-        margin-left: 7px;
-    }
-    nav.navbar.navbar-expand-md.navbar-light.fixed-top {
-        height: 140px;
-    }
-    div#contact.contact-section.container-fluid {
-        padding-top: 188px;
-    }
-    .social-logo{
-        font-size: 2rem;
-    }
-    .social-media-wrap {
-        width: 90%;
-        max-width: 1000px;
-    }
-    .website-rights {
-        font-size: .875rem;
-    }
-    .social-media {
-        margin-left: 463px;
-    }
-    h1.headline{
-        font-size: 100px;
-    }
-    div.mission-img-.col-md-5 {
-        padding-bottom: 50px;
-    }
-}
- @media (min-width: 1921px) and (max-width: 2560px) {
-    div.about-container.container-fluid {
-        height: 1440px;
-        padding-top: 280px;
-    }
-    div#contact.contact-section.container-fluid {
-        height: 1440px;
-    }
-    div.mission-container.container-fluid {
-        height: 1440px;
-        padding-top: 280px;
-    }
-    div.cards {
-        height: 1440px;
-        padding-top: 200px;
-    }
-    h1.headline {
-        font-size: 100px;
     }
     h1.mission {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
-    h1.about {
-        font-size: 2.1rem;
+    h2.mission{
+        font-size: 1.45rem;
+    }
+    h3.mission{
+        font-size: 1.25rem;
+    }
+    h4.mission{
+        font-size: 1rem;
+    }
+    img.missionImg-fluid {
+        height: 142px;
+    }
+    .mission-img.row {
+        margin-left: 385px;
+    }
+    /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        padding-top: 150px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 620px;
+        padding-top: 150px;
+    }
+    img.img-fluid-contact {
+        height: 400px;
     }
     h1.contactHeading {
-        font-size: 2.1rem;
-        padding-bottom: 20px;
-    }
-    h4{
         font-size: 2rem;
+        margin-bottom: 0;
     }
-    h3{
-        font-size: 2.25rem;
+    h5.contact {
+        font-size: .95rem;
+        margin-bottom: 0;
     }
-    h2{
-        font-size: 2.5rem;
+    div.row.uploadForm {
+        height: 79px;
     }
-    img.img-fluid {
-        height: 350px;
+    textarea.form-control.formInput {
+        height: 60px;
     }
-    div.mission-img.row {
-        margin-left: 484px;
-        
+    .contact.col-md-7 {
+        height: 460px;
     }
-    div.mission-img-.col-md-5 {
-        padding-top: 20px;
-        padding-bottom: 50px;
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+    .social-media-wrap {
+        margin-left: 183px;
+    }
+}
+/*  Medium devices (tablets, 768px and up) */
+@media  (min-width: 577px) and (max-width: 768px) { 
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        font-size: 56px;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1024px;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1024px;
+    }
+    .mission-img.row {
+        margin-left: 208px;
+    }
+     /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1024px;
+        padding-top: 200px;
+    }
+    img.img-fluid-contact {
+        height: 308px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+    .social-media-wrap {
+        margin-left: 12px;
+    }
+    small.website-rights {
+        margin-left: -10px;
+    }
+    .social-icons {
+        width: 191px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (max-width: 576px) { 
+    /* --------- */
+    /*Navbar   */
+    /* --------- */
+    img.img-fluid.logo {
+        height: 192px;
+    }
+    .nav.container {
+        height: 130px;
+        margin-bottom: 104px;
+    }
+    a.nav-link {
+        width: 84px;
+    }
+    .nav-item {
+        width: 84px;
     }
     nav.navbar.navbar-expand-md.navbar-light.fixed-top {
-        height: 188px;
+        height: 200px;
     }
-    div#contact.contact-section.container-fluid {
-        padding-top: 300px;
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 43px;
     }
-    .social-logo {
-        font-size: 2rem;
-        margin-left: -103px;
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1282px;
+        padding-top: 215px;
     }
-    .social-media-wrap {
-        max-width: 1240px;
-        width: 1010px;
-        margin-left: 497px;
+     /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1142px;
+        padding-top: 215px;
     }
-    .website-rights {
-        font-size: 1.375rem;
+    .mission-img.row {
+        margin-left: 110px;
     }
-    .social-media {
-        margin-left: -420px;
+    img.missionImg-fluid {
+        height: 248px;
     }
-    div.footer-container {
-        height: 108px;
+     /* --------- */
+    /*Services   */
+    /* --------- */
+    h1.scards {
+        padding-top: 50px;
     }
-    div.contact.row {
-        padding-top: 10px;
+     /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1142px;
+        padding-top: 215px;
     }
-    div.contact.col-md-7 {
-        padding-top: 30px;
-        padding-bottom: 50px;
+    img.img-fluid-contact {
+        height: 381px;
     }
     div.contact-img.col-md-5 {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        width: 1px;
+        margin-right: 383px;
     }
-    img.navLogo {
-        height: 250px;
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+    .social-media-wrap {
+        display: block;
+        margin-left: 7px;
     }
-    h1.mission { 
-        font-size: 2.1rem;
+    .social-icons {
+        display: block;
+        width: 217px;
     }
-    nav.navbar.navbar-expand-md.navbar-light.fixed-top{
-        height: 140px;
+}
+
+
+@media screen and (width <=360px) {
+     /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        margin-top: 164px;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1527px;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1430px;
+    }
+    .mission-img.row {
+        margin-left: 15px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1124px;
+    }
+    img.img-fluid-contact {
+        height: 367px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .4rem;
+    }
+    .social-icons {
+        width: 64px;
     }
 }

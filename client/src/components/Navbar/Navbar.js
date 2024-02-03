@@ -30,21 +30,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
-        <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
+      <Container className='nav'>
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
@@ -88,7 +74,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-        </Navbar.Collapse>
+          <Navbar.Brand href="/">
+          <img src={logo} className="img-fluid logo" alt="brand" />
+        </Navbar.Brand>
       </Container>
     </Navbar>
     </>

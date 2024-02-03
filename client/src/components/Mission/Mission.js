@@ -27,7 +27,7 @@ function Mission() {
           <Col className="mission-img"
             md={5}
           >
-            <img src={logo} alt="missionLogo" className="img-fluid" />
+            <img src={logo} alt="missionLogo" className="missionImg-fluid" />
           </Col>
         </Row>
       </Container>

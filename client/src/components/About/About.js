@@ -4,14 +4,14 @@ import './style.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWarehouse } from "@fortawesome/free-solid-svg-icons";
 import { faBuildingLock } from "@fortawesome/free-solid-svg-icons";
-import { faHospitalUser } from "@fortawesome/free-solid-svg-icons";
+import { faIndustry } from "@fortawesome/free-solid-svg-icons";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
-import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { faBreadSlice } from "@fortawesome/free-solid-svg-icons";
 import { faBoxesStacked } from "@fortawesome/free-solid-svg-icons";
 import { faUserShield } from "@fortawesome/free-solid-svg-icons";
-import { faHospital } from "@fortawesome/free-solid-svg-icons";
+import { faCarSide } from "@fortawesome/free-solid-svg-icons";
 
 
 function About() {
@@ -24,12 +24,12 @@ function About() {
         <Row className='about-description' style={{color: 'white' }}>
           <Col >
             <h2 className="about">Exact Match Personnel</h2>
-            <h3 className="about">Employers</h3>
+            <h3 className="about">EMPLOYERS</h3>
             <h3 className="about">Looking for Workforce?</h3>
             <h4 className="about">E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
             <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
             <br className="aboutBR"></br>
-            <h3 className="about">Employees</h3>
+            <h3 className="about">EMPLOYEES</h3>
             <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
             <h4 className="about">E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
             <h4 className="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
@@ -76,22 +76,22 @@ function About() {
                           <FontAwesomeIcon icon={faBuildingLock} style={{color: "#f5b51b", paddingRight: "2%"}} />
                     </Col>
                     <Col className="jobIcons_item">
-                      MEDICAL
+                      MANUFACTORING
                         <br></br>
-                          <FontAwesomeIcon icon={faHospitalUser} style={{color: "#f5b51b", paddingRight: "5%"}} />
-                          <FontAwesomeIcon icon={faHospital} style={{color: "#f5b51b", paddingRight: "2%"}} />
+                          <FontAwesomeIcon icon={faIndustry} style={{color: "#f5b51b", paddingRight: "5%"}} />
+                          <FontAwesomeIcon icon={faCarSide} style={{color: "#f5b51b", paddingRight: "2%"}} />
                     </Col> 
                     <Col className="jobIcons_item">
-                      FOOD
+                      FOOD PRODUCTION
                         <br></br>
                           <FontAwesomeIcon icon={faUtensils} style={{color: "#f5b51b",paddingRight: "2%"}} />
                           <FontAwesomeIcon icon={faBreadSlice} style={{color: "#f5b51b"}} />
                     </Col>
                     <Col className="jobIcons_item">
-                      Technology
+                      ADMINISTRATIVE
                         <br></br>
-                        <FontAwesomeIcon icon={faNetworkWired} style={{color: "#f5b51b",paddingRight: "7%"}} />
-                        <FontAwesomeIcon icon={faLaptopCode} style={{color: "#f5b51b"}} />
+                        <FontAwesomeIcon icon={faPhone} style={{color: "#f5b51b",paddingRight: "7%"}} />
+                        <FontAwesomeIcon icon={faPrint} style={{color: "#f5b51b"}} />
                     </Col>
                   </Row>
               </Container>

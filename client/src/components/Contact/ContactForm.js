@@ -103,7 +103,7 @@ const ContactForm = () => {
                   </div>
                 </div>
                 {/* Row 3 of form */}
-                <div className='row formRow'>
+                <div className='row subjectForm'>
                   <div className='col'>
                     <input
                       type='text'
@@ -124,7 +124,7 @@ const ContactForm = () => {
                   </div>
                 </div>
                 {/* Row 4 of form */}
-                <div className='row formRow'>
+                <div className='row messageForm'>
                   <div className='col'>
                     <textarea
                       rows={3}
@@ -139,7 +139,7 @@ const ContactForm = () => {
                   </div>
                 </div>
                 {/* Row 5 of form */}
-                <div className='row formRow'>
+                <div className='row uploadForm'>
                   <div className='col'>
                     <div class="upload-button-wrapper" style={{ display: 'block' }}>
                       <input
@@ -163,11 +163,11 @@ const ContactForm = () => {
                 <hr></hr>
                   <span>
                       <FontAwesomeIcon icon={faSquarePhone} style={{color: "#f5b51b"}} />
-                        <h5> 909 418 - 4181 </h5>
+                        <h5 className="contact"> 909 418 - 4181 </h5>
                       <FontAwesomeIcon icon={faMapLocationDot} style={{color: "#f5b51b"}} />
-                        <h5> Inland Empire, California </h5>
+                        <h5 className="contact"> Inland Empire, California </h5>
                       <FontAwesomeIcon icon={faEnvelope} style={{color: "#f5b51b"}} />
-                        <h5>Egarcia90@verizon.net</h5>
+                        <h5 className="contact">Egarcia90@verizon.net</h5>
                   </span>
               </form>
             </div>
