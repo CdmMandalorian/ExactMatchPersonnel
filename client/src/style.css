@@ -414,7 +414,6 @@ img.img-fluid-contact {
         font-size: 1rem;
         margin-bottom: 0;
     }
-
     br.about2 {
         display: none;
     }
@@ -611,26 +610,255 @@ img.img-fluid-contact {
         width: 217px;
     }
 }
+@media screen and (width <=527px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1164px;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    h1.mission {
+        font-size: 2rem;
+    }
+    h2.mission{
+        font-size: 1.45rem;
+    }
+    h3.mission{
+        font-size: 1.25rem;
+    }
+    h4.mission{
+        font-size: 1rem;
+    }
+    .mission-img.row {
+        margin-left: 49px;
+    }
+}
+@media screen and (width <=500px) { 
+    /* --------- */
+    /*Hero Container */
+    /* --------- */
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (width <=451px) { 
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1005px;
+        padding-top: 215px;
+    }
+    h1.about {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    h2.about{
+        font-size: 1.45rem;
+        margin-bottom: 0;
+    }
+    h3.about{
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    h4.about{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
+@media screen and (width <=430px) {
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        margin-top: -98px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    }
+    br.pq1 {
+        display: none;
+    }
+    br.pq2 {
+        display: none;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1005px;
+        padding-top: 215px;
+    }
+    h1.about {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    h2.about{
+        font-size: 1.45rem;
+        margin-bottom: 0;
+    }
+    h3.about{
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    h4.about{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 979px;
+        padding-top: 215px;
+    }
+    h1.mission {
+        font-size: 2rem;
+    }
+    h2.mission{
+        font-size: 1.45rem;
+    }
+    h3.mission{
+        font-size: 1.25rem;
+    }
+    h4.mission{
+        font-size: 1rem;
+    }
+    .mission-img.row {
+        margin-left: 49px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1142px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
 
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .4rem;
+    }
+    .social-icons {
+        width: 64px;
+    }
+}
+@media screen and (width <=414px) {
+     /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        margin-top: -98px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    }
+    br.pq1 {
+        display: none;
+    }
+    br.pq2 {
+        display: none;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1075px;
+        padding-top: 215px;
+    }
+    h1.about {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    h2.about{
+        font-size: 1.45rem;
+        margin-bottom: 0;
+    }
+    h3.about{
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    h4.about{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 998px;
+        padding-top: 215px;
+    }
+    h1.mission {
+        font-size: 2rem;
+    }
+    h2.mission{
+        font-size: 1.45rem;
+    }
+    h3.mission{
+        font-size: 1.25rem;
+    }
+    h4.mission{
+        font-size: 1rem;
+    }
+    .mission-img.row {
+        margin-left: 49px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .4rem;
+    }
+    .social-icons {
+        width: 64px;
+    }
+}
 
 @media screen and (width <=360px) {
      /* --------- */
     /*Hero Container   */
     /* --------- */
     h1.headline{
-        margin-top: 164px;
+        margin-top: -98px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    }
+    br.pq1 {
+        display: none;
+    }
+    br.pq2 {
+        display: none;
     }
     /* --------- */
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1527px;
+        height: 1135px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1430px;
+        height: 1055px;
     }
     .mission-img.row {
         margin-left: 15px;

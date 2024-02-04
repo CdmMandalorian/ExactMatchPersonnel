@@ -11,8 +11,8 @@ function HeroSection() {
       <p>Your Journey, Your Opportunity</p>
       
       <div className='progressQuotes'>
-      <br></br>
-      <br></br>
+      <br className='pq1'></br>
+      <br className='pq2'></br>
       <Type />
       </div>
     </div>
