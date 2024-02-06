@@ -11,10 +11,6 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <About />
-      <Mission />
-      <Services />
-      <Contact />
       <Footer />
     </>
   );
