@@ -18,8 +18,8 @@ function Mission() {
             <h3 className="mission">Mission</h3>
             <h4 className="mission">At Exact Match Personnel, our mission is to empower individuals at every stage of their career journey by providing unparalleled support in connecting talented individuals with rewarding employment opportunities. </h4>
             <h4 className="mission">We believe that everyone, regardless of their level of experience, deserves the chance to find a job that not only matches their skills but also aligns with their aspirations.</h4>
-            <h4 className="mission">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
-            <h4 className="mission">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos pariatur, excepturi perferendis consequatur itaque eum minima ex harum sequi accusamus nostrum fugiat earum nulla repellendus animi dolore eaque odit doloribus.</h4>
+            <h4 className="mission">At the heart of our mission is the belief that the right job can transform lives. We strive to create a platform that transcends traditional recruitment paradigms, ensuring that every candidate, regardless of their background, finds an exact match that not only meets their immediate needs but also propels them towards long-term success. </h4>
+            <h4 className="mission">Exact Match Personnel is driven by a passion for connecting talent with opportunity, cultivating a vibrant community where individuals thrive, and businesses prosper. Join us as we embark on a journey to redefine the job search experience, fostering a world where every person, with or without experience, can realize their fullest professional potential.</h4>
             <br></br>
           </Col>
         </Row>

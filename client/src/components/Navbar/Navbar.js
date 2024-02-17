@@ -84,6 +84,15 @@ function NavBar() {
                 CONTACT
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => updateExpanded(false)}
+              >
+                APPLY
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
           </Navbar.Collapse>
           <Navbar.Brand href="/">

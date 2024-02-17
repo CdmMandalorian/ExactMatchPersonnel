@@ -165,7 +165,7 @@ const ContactForm = () => {
                       <FontAwesomeIcon icon={faSquarePhone} style={{color: "#f5b51b"}} />
                         <h5 className="contact"> 909 418 - 4181 </h5>
                       <FontAwesomeIcon icon={faMapLocationDot} style={{color: "#f5b51b"}} />
-                        <h5 className="contact"> Ontario, California </h5>
+                        <h5 className="contact"> Southern California </h5>
                       <FontAwesomeIcon icon={faEnvelope} style={{color: "#f5b51b"}} />
                         <h5 className="contact">Eric@exactmatchpersonnel.com</h5>
                   </span>

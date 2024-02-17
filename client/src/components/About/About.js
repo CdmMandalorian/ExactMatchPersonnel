@@ -32,10 +32,10 @@ function About() {
             <h3 className="about">EMPLOYEES</h3>
             <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
             <h4 className="about">E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
-            <h4 className="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam facere voluptate aspernatur porro quos veniam nemo iusto, velit pariatur laboriosam vero natus molestias voluptatibus neque tenetur accusamus tempore illum et!</h4>
+            <h4 className="about">Our Commitment is to foster a Dynamic and Inclusive job-seeking experience. Dedicated in Assisting All.</h4>
+            <h4 className="about">Experience does not Limit Opportunities</h4>
             <br className="about1"></br>
             <br className="about2"></br>
-            <br className="about3"></br>
             <Col className="jobs">
               <Container className="jobs">
                 <Row>
