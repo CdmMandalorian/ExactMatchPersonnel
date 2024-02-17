@@ -8,8 +8,6 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1 className="headline">EXACT MATCH PERSONNEL</h1>
-      <p>Your Journey, Your Opportunity</p>
-      
       <div className='progressQuotes'>
       <br className='pq1'></br>
       <br className='pq2'></br>

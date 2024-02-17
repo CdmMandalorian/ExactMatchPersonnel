@@ -25,6 +25,14 @@
 /* --------- */
 /*Navbar   */
 /* --------- */
+nav.navbar.navbar-expand-sm.navbar-dark.bg-dark {
+    background-color: #242424;
+    height: 155px;
+}
+.navbar-nav {
+    margin-left: 15px;
+}
+
 div#responsive-navbar-nav.navbar-collapse.collapse {
     justify-content: end;
 }
@@ -51,15 +59,13 @@ img.img-fluid {
     height: 250px;
     margin-left: 3px;
 }
-
 /* --------- */
 /*Hero Container   */
 /* --------- */
 .hero-container {
-    background-image: url("./Assets/Images/istockphoto-1658897093-1024x1024.jpg");
-    background-color: #110e1b;
-    background-blend-mode: screen;
+    background-image: url("./Assets/Images/business-hands-putting-puzzle-pieces-together-vector-21494825.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -69,12 +75,12 @@ img.img-fluid {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-    margin-top: 100px;
 }
 
 .hero-container>h1 {
-    color: #fff;
+    color: #1f1d1d;
     margin-top: -100px;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 .hero-container>p {
@@ -87,11 +93,12 @@ img.img-fluid {
 
 h1.headline {
     font-size: 100px;
+    font-weight: 800;
 }
 
 .Typewriter__wrapper {
     font-size: 1.7em;
-    color: #fff !important;
+    color: #1f1d1d !important;
     font-weight: 600 !important;
 }
 
@@ -111,7 +118,7 @@ div.progressQuotes {
     align-items: center;
     max-height: 50px;
     margin-top: 220px;
-
+    text-shadow: 1px 1px 2px #fff;
 }
 
 /* --------- */
@@ -533,7 +540,19 @@ img.img-fluid-contact {
         width: 191px;
     }
 }
-
+@media (max-width: 900px) { 
+    img.img-fluid.logo2{
+        display: none;
+    }
+}
+@media (max-width: 899px) { 
+    img.img-fluid.logo1{
+        display: none;
+    }
+    img.img-fluid.logo2{
+        display:block;
+    }
+}
 /* Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) { 
     /* --------- */
