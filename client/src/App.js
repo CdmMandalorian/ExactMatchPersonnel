@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import Preloader from '../src/components/Pre'
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar4';
 import { Route , Routes} from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/Home/Home';
