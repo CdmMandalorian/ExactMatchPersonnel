@@ -54,9 +54,11 @@ nav.navbar.navbar-expand-md.navbar-light.fixed-top {
 .nav-link:hover {
     color: white !important;
 }
-
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+    background-color: #1f1d1d!important;
+}
 img.img-fluid {
-    height: 250px;
+    height: 69px;
     margin-left: 3px;
 }
 /* --------- */
@@ -64,6 +66,8 @@ img.img-fluid {
 /* --------- */
 .hero-container {
     background-image: url("./Assets/Images/business-hands-putting-puzzle-pieces-together-vector-21494825.jpg");
+    background-color: #fff;
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
