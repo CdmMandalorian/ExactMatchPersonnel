@@ -1,10 +1,11 @@
 import * as React from "react";
 import { useForm } from 'react-hook-form';
-import axios from 'axios';
+import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquarePhone } from '@fortawesome/free-solid-svg-icons'
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 
 const ContactForm = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
@@ -18,6 +19,7 @@ const ContactForm = () => {
       body: formData,
     }).then((res) => res.json());
     alert(JSON.stringify(`${res.message}, status: ${res.status}`));
+
   };
 
   return (
@@ -31,7 +33,7 @@ const ContactForm = () => {
                 <div className='row formRow'>
                   <div className='col-6'>
                     <input
-                      type='text'
+                      type='name'
                       name='name'
                       {...register('name', {
                         required: { value: true, message: 'Please enter your Name' },
@@ -63,7 +65,7 @@ const ContactForm = () => {
                 <div className='row formRow'>
                   <div className='col-6'>
                     <input
-                      type='tel'
+                      type='phone'
                       name='phone'
                       {...register('phone', {
                         required: { value: true, message: 'Please enter your Phone' },
