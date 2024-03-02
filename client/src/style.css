@@ -734,14 +734,29 @@ img.img-fluid-contact {
     h1.headline {
         font-size: 34px;
     } 
-    /* --------- */
-    /*Hero Container */
-    /* --------- */
+    div.Typewriter {
+        max-width: 390px;
+    }
     .Typewriter__wrapper {
         font-size: 1rem;
     }
+    div.progressQuotes {
+        margin-top: 185px;
+    }
 }
 @media screen and (width <=451px) { 
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 30px;
+    }
+    div.Typewriter {
+        max-width: 340px;
+    }
+    .Typewriter__wrapper {
+        font-size: .9rem;
+    }
     /* --------- */
     /*About   */
     /* --------- */
@@ -770,17 +785,24 @@ img.img-fluid-contact {
     /* --------- */
     /*Hero Container   */
     /* --------- */
-    h1.headline{
-        margin-top: -1030px;
+    h1.headline {
+        font-size: 30px;
+        margin-top: -405px;
     }
     .Typewriter__wrapper {
-        font-size: 1.2rem;
+        font-size: .8rem;
+    }
+    div.Typewriter {
+        max-width: 320px;
     }
     br.pq1 {
         display: none;
     }
     br.pq2 {
         display: none;
+    }
+    div.progressQuotes {
+        margin-top: 234px;
     }
     /* --------- */
     /*About   */
@@ -854,17 +876,21 @@ img.img-fluid-contact {
      /* --------- */
     /*Hero Container   */
     /* --------- */
-    h1.headline{
-        margin-top: -98px;
+    h1.headline {
+        font-size: 27px;
+        margin-top: -400px;
     }
     .Typewriter__wrapper {
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
     br.pq1 {
         display: none;
     }
     br.pq2 {
         display: none;
+    }
+    div.Typewriter {
+        max-width: 304px;
     }
     /* --------- */
     /*About   */
@@ -933,17 +959,24 @@ img.img-fluid-contact {
      /* --------- */
     /*Hero Container   */
     /* --------- */
-    h1.headline{
-        margin-top: -98px;
+    h1.headline {
+        font-size: 24px;
+        margin-top: -394px;
     }
     .Typewriter__wrapper {
-        font-size: 1.2rem;
+        font-size: .7rem;
     }
     br.pq1 {
         display: none;
     }
     br.pq2 {
         display: none;
+    }
+    div.Typewriter {
+        max-width: 250px;
+    }
+    div.progressQuotes {
+        margin-top: 226px;
     }
     /* --------- */
     /*About   */
