@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import { Button } from '../Button/Button';
 import './style.css';
 import Type from './Type';
 
