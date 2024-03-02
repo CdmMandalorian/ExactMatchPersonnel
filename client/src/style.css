@@ -808,8 +808,8 @@ img.img-fluid-contact {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1005px;
-        padding-top: 215px;
+        height: 785px;
+        padding-top: 30px;
     }
     h1.about {
         font-size: 2rem;
@@ -831,8 +831,8 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 979px;
-        padding-top: 215px;
+        height: 840px;
+        padding-top: 30px;
     }
     h1.mission {
         font-size: 2rem;
@@ -850,10 +850,17 @@ img.img-fluid-contact {
         margin-left: 49px;
     }
     /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        padding-top: 30px;
+    }
+    /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1142px;
+        height: 1000px;
+        padding-top: 30px;
     }
     /* --------- */
     /*Footer   */
@@ -896,8 +903,8 @@ img.img-fluid-contact {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1075px;
-        padding-top: 215px;
+        height: 830px;
+        padding-top: 31px;
     }
     h1.about {
         font-size: 2rem;
@@ -919,8 +926,8 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 998px;
-        padding-top: 215px;
+        height: 841px;
+        padding-top: 31px;
     }
     h1.mission {
         font-size: 2rem;
@@ -936,6 +943,19 @@ img.img-fluid-contact {
     }
     .mission-img.row {
         margin-left: 49px;
+    }
+    /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        padding-top: 31px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1001px;
+        padding-top: 31px;
     }
     /* --------- */
     /*Footer   */
@@ -982,15 +1002,15 @@ img.img-fluid-contact {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 885px;
-        padding-top: 17px;
+        height: 900px;
+        padding-top: 33px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 923px;
-        padding-top: 17px;
+        height: 939px;
+        padding-top: 33px;
     }
     .mission-img.row {
         margin-left: 15px;
@@ -999,14 +1019,14 @@ img.img-fluid-contact {
     /*Services   */
     /* --------- */
     .cards {
-        padding-top: 17px;
+        padding-top: 33px;
     }
     /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 972px;
-        padding-top: 17px;
+        height: 988px;
+        padding-top: 33px;
     }
     img.img-fluid-contact {
         height: 367px;
