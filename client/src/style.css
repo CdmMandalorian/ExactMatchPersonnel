@@ -542,7 +542,11 @@ img.img-fluid-contact {
     /*Hero Container   */
     /* --------- */
     h1.headline{
-        font-size: 56px;
+        font-size: 54px;
+        margin-top: -528px;
+    }
+    div.progressQuotes {
+        margin-top: 218px;
     }
     /* --------- */
     /*About   */
@@ -620,7 +624,17 @@ img.img-fluid-contact {
     /*Hero Container   */
     /* --------- */
     h1.headline {
-        font-size: 43px;
+        font-size: 39px;
+        margin-top: -441px;
+    }
+    div.Typewriter {
+        max-width: 566px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.2rem;
+    }
+    div.progressQuotes {
+        margin-top: 195px;
     }
     /* --------- */
     /*About   */
@@ -676,6 +690,19 @@ img.img-fluid-contact {
 }
 @media screen and (width <=527px) { 
     /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 36px;
+        margin-top: -445px;
+    }
+    div.Typewriter {
+        max-width: 517px;
+    }
+    div.progressQuotes {
+        margin-top: 181px;
+    }
+    /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
@@ -700,12 +727,18 @@ img.img-fluid-contact {
         margin-left: 49px;
     }
 }
-@media screen and (width <=500px) { 
+@media screen and (width <=500px) {
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 34px;
+    } 
     /* --------- */
     /*Hero Container */
     /* --------- */
     .Typewriter__wrapper {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 @media screen and (width <=451px) { 
