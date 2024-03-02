@@ -982,22 +982,31 @@ img.img-fluid-contact {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1135px;
+        height: 885px;
+        padding-top: 17px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1055px;
+        height: 923px;
+        padding-top: 17px;
     }
     .mission-img.row {
         margin-left: 15px;
     }
     /* --------- */
+    /*Services   */
+    /* --------- */
+    .cards {
+        padding-top: 17px;
+    }
+    /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1124px;
+        height: 972px;
+        padding-top: 17px;
     }
     img.img-fluid-contact {
         height: 367px;
