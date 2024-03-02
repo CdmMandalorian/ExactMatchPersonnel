@@ -71,7 +71,7 @@ img.img-fluid {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 138vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ img.img-fluid {
 
 .hero-container>h1 {
     color: #fff;
-    margin-top: -723px;
+    margin-top: -530px;
     text-shadow: 1px 1px 2px #1f1d1d;
 }
 
@@ -209,11 +209,20 @@ img.img-fluid-contact {
 
 @media (min-width: 1921px) and (max-width: 2560px) {
     /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    .hero-container>h1 {
+        margin-top: -580px;
+    }
+    div.progressQuotes {
+    margin-top: 194px;
+    }
+    /* --------- */
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1440px;
-        padding-top: 300px;
+        height: 1279px;
+        padding-top: 200px;
     }
     h1.about {
         font-size: 3rem;
@@ -222,8 +231,8 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1440px;
-        padding-top: 300px;
+        height: 1279px;
+        padding-top: 200px;
     }
     h1.mission {
         font-size: 3rem;
@@ -232,14 +241,14 @@ img.img-fluid-contact {
     /*Services   */
     /* --------- */
     .cards {
-        height: 1440px;
-        padding-top: 300px;
+        height: 1279px;
+        padding-top: 200px;
     }
     /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1440px;
+        height: 1279px;
         padding-top: 300px;
     }
     h1.contactHeading {
@@ -254,6 +263,12 @@ img.img-fluid-contact {
 }
 /*  XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1201px) and (max-width: 1440px) {
+   /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    .hero-container>h1 {
+        margin-top: -458px;
+    }
     /* --------- */
     /*About   */
     /* --------- */
@@ -291,9 +306,12 @@ img.img-fluid-contact {
     /*Hero Container   */
     /* --------- */
     h1.headline{
-        font-size: 88px;
-        margin-top: -138px;
+        font-size: 76px;
+        margin-top: -440px;
     }
+    div.progressQuotes {
+        margin-top: 148px;
+        }
     /* --------- */
     /*About   */
     /* --------- */
@@ -357,7 +375,7 @@ img.img-fluid-contact {
     /*Hero Container   */
     /* --------- */
     h1.headline{
-        font-size: 75px;
+        font-size: 67px;
     }
     /* --------- */
     /*About   */
@@ -410,7 +428,22 @@ img.img-fluid-contact {
 }
 /*  Large devices (desktops, 992px and up) */
 @media  (min-width: 769px) and (max-width: 992px) {
-
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        font-size: 65px;
+        margin-top: -355px;
+    }
+    div.progressQuotes {
+        margin-top: 74px;
+        }
+    .Typewriter__wrapper {
+        font-size: 1.4rem;
+    }
+    div.Typewriter {
+        max-width: 800px;
+    }
     /* --------- */
     /*About   */
     /* --------- */
