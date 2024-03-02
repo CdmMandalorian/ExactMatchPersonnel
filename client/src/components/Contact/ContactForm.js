@@ -6,19 +6,24 @@ import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
-const SERVICE_ID = 'default_service';
-const TEMPLATE_ID = 'template_jxuvy45';
-const PUBLIC_KEY = "0sAfd20SSVnRGrYve";
+// const SERVICE_ID = 'default_service';
+// const TEMPLATE_ID = 'template_jxuvy45';
+// const PUBLIC_KEY = "0sAfd20SSVnRGrYve";
 
 const Contactform = () => {
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-            .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+            .sendForm(
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
+                form.current,
+                process.env.REACT_APP_PUBLIC_KEY
+                )
             .then(
                 (result) => {
-                    alert('message sent successfully...');
+                    alert('Email sent Successfully...');
                     console.log(result.text);
                 },
                 (error) => {
@@ -87,6 +92,7 @@ const Contactform = () => {
                                                 type="file" name="Resume" id="Resume" className="is-invalid-input"
                                                 required='' data-invalid="" aria-invalid="true" style={{ color: 'white' }} />
                                         </div>
+                                        <div class="g-recaptcha" data-sitekey="6Lfa6YYpAAAAAP8jcVzBuxGZZkC3NiqtG6IMFy8F"></div>
                                         <input
                                             type="submit" id="button" value="Send" class="btn btn-primary mb-3" style={{ marginTop: 10 }} />
                                     </div>
