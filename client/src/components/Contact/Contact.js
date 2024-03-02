@@ -2,19 +2,13 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contactform from './ContactForm';
+import Contactform from "./ContactForm";
 import contactImg from '../../Assets/navbarlogo/EMPlogo2.png'
 
 function Contact () {
     return (
         <section>
-
-            {/* <SideBar></SideBar> */}
-
             <Container fluid className="contact-section" id="contact">
-
-                {/* <Particle> */}
-
                 <Container className="contact-content">
                     <Row className="contact" style={{ justifyContent: "center"}}>
                         <Col className="contact"
@@ -38,7 +32,6 @@ function Contact () {
 
                     </Row>
                 </Container>
-                {/* </Particle> */}
             </Container>
         </section>
     );
