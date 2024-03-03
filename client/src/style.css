@@ -723,14 +723,19 @@ img.img-fluid-contact {
         margin-top: 181px;
     }
     /* --------- */
-    /*Mission   */
+    /*About   */
     /* --------- */
-    .mission-container.container-fluid {
-        height: 1164px;
+    .about-container.container-fluid {
+        height: 953px;
+        padding-top: 7px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
+    .mission-container.container-fluid {
+        height: 722px;
+        padding-top: 7px;
+    }
     h1.mission {
         font-size: 2rem;
     }
@@ -745,6 +750,16 @@ img.img-fluid-contact {
     }
     .mission-img.row {
         margin-left: 49px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1067px;
+        padding-top: 17px;
+    }
+    div.g-recaptcha{
+        margin-left: 64px;
     }
     /* --------- */
     /*Footer   */
@@ -778,6 +793,30 @@ img.img-fluid-contact {
     }
     div.progressQuotes {
         margin-top: 185px;
+    }
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 961px;
+        padding-top: 17px;
+    }
+     /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 770px;
+        padding-top: 17px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1066px;
+        padding-top: 17px;
+    }
+    div.g-recaptcha{
+        margin-left: 50px;
     }
     /* --------- */
     /*Footer   */
