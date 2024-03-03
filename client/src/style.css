@@ -558,7 +558,7 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1024px;
+        height: 1168px;
     }
     .mission-img.row {
         margin-left: 208px;
@@ -604,7 +604,7 @@ img.img-fluid-contact {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1146px;
+        height: 1168px;
     }
 }
 /* Small devices (landscape phones, 576px and up)  */
@@ -655,7 +655,7 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1142px;
+        height: 1177px;
         padding-top: 215px;
     }
     .mission-img.row {
@@ -699,6 +699,14 @@ img.img-fluid-contact {
         font-size: .7rem;
     }
     
+}
+@media screen and (width <=540px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 1199px;
+    }
 }
 @media screen and (width <=527px) { 
     /* --------- */
@@ -1056,6 +1064,30 @@ img.img-fluid-contact {
     /* --------- */
     .about-container.container-fluid {
         height: 855px;
+    }
+}
+@media screen and (width <=379px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 879px;
+    }
+}
+@media screen and (width <=368px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 898px;
+    }
+}
+@media screen and (width <=365px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 917px;
     }
 }
 @media screen and (width <=360px) {
