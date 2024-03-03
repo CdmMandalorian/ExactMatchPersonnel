@@ -194,7 +194,10 @@ div.form-group2{
 img.img-fluid-contact {
     height: 450px;
 }
-
+div.g-recaptcha {
+    margin-left: 190px;
+    padding-top: 5px;
+}
 
 /* --------- */
 /*Footer   */
