@@ -599,6 +599,14 @@ img.img-fluid-contact {
         display:block;
     }
 }
+@media screen and (width <=767px) { 
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 1146px;
+    }
+}
 /* Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) { 
     /* --------- */
@@ -685,8 +693,12 @@ img.img-fluid-contact {
     }
     .social-icons {
         display: block;
-        width: 217px;
+        width: 64px;
     }
+    small.website-rights {
+        font-size: .7rem;
+    }
+    
 }
 @media screen and (width <=527px) { 
     /* --------- */
@@ -726,6 +738,22 @@ img.img-fluid-contact {
     .mission-img.row {
         margin-left: 49px;
     }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .7rem;
+    }
+    .social-icons {
+        width: 64px;
+    }
 }
 @media screen and (width <=500px) {
     /* --------- */
@@ -742,6 +770,22 @@ img.img-fluid-contact {
     }
     div.progressQuotes {
         margin-top: 185px;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .6rem;
+    }
+    .social-icons {
+        width: 64px;
     }
 }
 @media screen and (width <=451px) { 
@@ -779,6 +823,22 @@ img.img-fluid-contact {
     h4.about{
         font-size: 1rem;
         margin-bottom: 0;
+    }
+    /* --------- */
+    /*Footer   */
+    /* --------- */
+
+    .footer-logo {
+        width: 41px;
+    }
+    .footer-container {
+        height: 95px;
+    }
+    small.website-rights {
+        font-size: .5rem;
+    }
+    .social-icons {
+        width: 64px;
     }
 }
 @media screen and (width <=430px) {
@@ -877,6 +937,14 @@ img.img-fluid-contact {
     }
     .social-icons {
         width: 64px;
+    }
+}
+@media screen and (width <=420px) { 
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 830px;
     }
 }
 @media screen and (width <=414px) {
