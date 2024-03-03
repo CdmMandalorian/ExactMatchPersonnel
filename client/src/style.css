@@ -979,7 +979,15 @@ img.img-fluid-contact {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 861px;
+        height: 862px;
+    }
+}
+@media screen and (width <=398px) { 
+    /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 855px;
     }
 }
 @media screen and (width <=360px) {
