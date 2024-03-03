@@ -974,7 +974,14 @@ img.img-fluid-contact {
         width: 64px;
     }
 }
-
+@media screen and (width <=407px) { 
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 860px;
+    }
+}
 @media screen and (width <=360px) {
      /* --------- */
     /*Hero Container   */
