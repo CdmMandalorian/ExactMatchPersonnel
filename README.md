@@ -1,6 +1,6 @@
 # EXACT MATCH PERSONNEL | Staffing Agency
 <div align="center">
-  <img alt="Demo" src="/client/public/images/empHome2.png" />
+  <img alt="Demo" src="client/public/images/empHome2.png" />
 </div>
 
 ## React Web Application
@@ -114,11 +114,15 @@ After this you can run the project locally:
 
 ## Screenshots 
 
-<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernShop.png">
+<img src="client/src/Assets/Images/empHomeCityScape2560x1440Final.png">
 
-<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernShoppt2.png">
+<img src="client/src/Assets/Images/empAboutpg2560x.png">
 
-<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernHomept2.png">
+<img src="client/src/Assets/Images/empMissionpg2560x.png">
+
+<img src="client/src/Assets/Images/empServices2560x.png">
+
+<img src="client/src/Assets/Images/empContactpg5060x.png">
 
 
 <br />
@@ -126,6 +130,14 @@ After this you can run the project locally:
 ## Live:
   Visit EXACT MATCH PERSONNEL [here](https://exactmatchpersonnel.com/ "Link to EMP").
 <br />
+
+## Contribution | Special Thanks ⭐
+
+
+    Henning Witzel | Unsplash Stock Image HD Wallpapers › HD Travel Wallpapers › HD City Wallpapers Los Angeles by Night
+    
+    
+
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
