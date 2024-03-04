@@ -11,7 +11,7 @@
 React Web Application. This project has two features:
 
 1. . Fully Responsive React Application
-2. . Working Contact Page
+2. . React Contact Form
 
 # Getting Started with Create React App
 ## 🛠 Installation
