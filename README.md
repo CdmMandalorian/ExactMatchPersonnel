@@ -8,10 +8,10 @@
 
 # Description
 
-<!-- Full-stack ecommerce application built with MERN stack. This project has two features:
+React Web Application. This project has two features:
 
-1. Buyers register and browse the marketplace while interacting with products across different categories.
-2. Admins control and manage the marketplace items and customer acounts. -->
+1. .
+2. .
 
 # Getting Started with Create React App
 ## 🛠 Installation
@@ -135,6 +135,8 @@ After this you can run the project locally:
 
 
     Henning Witzel | Unsplash Stock Image HD Wallpapers › HD Travel Wallpapers › HD City Wallpapers Los Angeles by Night
+
+Visit [here](https://unsplash.com/photos/aerial-photography-of-cityscape-at-night-ukvgqriuOgo).
     
     
 
