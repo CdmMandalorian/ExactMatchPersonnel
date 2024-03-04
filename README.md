@@ -10,8 +10,8 @@
 
 React Web Application. This project has two features:
 
-1. .
-2. .
+1. . Fully Responsive React Application
+2. . Working Contact Page
 
 # Getting Started with Create React App
 ## 🛠 Installation
