@@ -27,12 +27,12 @@ function About() {
             <h3 className="about">EMPLOYERS</h3>
             <h3 className="about">Looking for Workforce?</h3>
             <h4 className="about">E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Enviroment.</h4>
-            <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Apirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
+            <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Aspirations, Needs, and Repetoire to Match Your Exact Organization.  </h4>
             <br className="aboutBR"></br>
             <h3 className="about">EMPLOYEES</h3>
-            <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into thier Skilled Specializations.</h4>
+            <h4 className="about">Working with a Premier Extensive Network Connecting Applicants into their Skilled Specializations.</h4>
             <h4 className="about">E M P Strives to Incorporate You with the Best Job Opportunities in Your Area.</h4>
-            <h4 className="about">Our Commitment is to foster a Dynamic and Inclusive job-seeking experience. Dedicated in Assisting All.</h4>
+            <h4 className="about">Our Commitment is to foster a Dynamic and Inclusive job-seeking Experience. Dedicated in Assisting All.</h4>
             <h4 className="about">Experience does not Limit Opportunities</h4>
             <br className="about1"></br>
             <br className="about2"></br>
