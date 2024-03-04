@@ -76,7 +76,7 @@ function About() {
                           <FontAwesomeIcon icon={faBuildingLock} style={{color: "#f5b51b", paddingRight: "2%"}} />
                     </Col>
                     <Col className="jobIcons_item">
-                      MANUFACTORING
+                      MANUFACTURING
                         <br></br>
                           <FontAwesomeIcon icon={faIndustry} style={{color: "#f5b51b", paddingRight: "5%"}} />
                           <FontAwesomeIcon icon={faCarSide} style={{color: "#f5b51b", paddingRight: "2%"}} />

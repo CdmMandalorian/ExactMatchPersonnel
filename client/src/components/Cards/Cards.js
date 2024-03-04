@@ -32,7 +32,7 @@ function Services() {
             />
             <CardItem
               src='images/marko-petek-tuxGxnwZP4A-unsplash.jpg'
-              text='Committed From Iception'
+              text='Committed From Inception'
               label='Commitment'
               
             />
