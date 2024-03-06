@@ -16,7 +16,7 @@ function CollapsibleExample() {
             <Nav.Link href="/mission">MISSION</Nav.Link>
             <Nav.Link href="/services">SERVICES</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
-            <Nav.Link href="/">APPLY</Nav.Link>
+            {/* <Nav.Link href="/">APPLY</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import './style.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import Contactform from "./ContactForm";
 import contactImg from '../../Assets/navbarlogo/EMPlogo2.png'
 
