@@ -294,13 +294,13 @@ div.g-recaptcha {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 900px;
+        height: 694px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 911px;
+        height: 694px;
     }
     img.missionImg-fluid {
         height: 290px;
@@ -318,7 +318,13 @@ div.g-recaptcha {
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 900px;
+        height: 694px;
+    }
+    h5.contact {
+        margin-bottom: 0;
+    }
+    hr.contact {
+        margin: 0;
     }
     a.social-logo {
         margin-right: 8px;
@@ -340,7 +346,7 @@ div.g-recaptcha {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 800px;
+        height: 594px;
     }
     h1.about {
         font-size: 2.5rem;
@@ -358,7 +364,7 @@ div.g-recaptcha {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 800px;
+        height: 594px;
     }
     h1.mission {
         font-size: 2.5rem;
@@ -374,6 +380,7 @@ div.g-recaptcha {
     }
     img.missionImg-fluid {
         height: 286px;
+        margin-top: -60px;
     }
     .mission-img.row {
         margin-left: 416px;
@@ -382,10 +389,19 @@ div.g-recaptcha {
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 800px;
+        height: 594px;
     }
     h1.contactHeading {
         font-size: 2rem;
+    }
+    h5.contact {
+        margin-bottom: 0;
+    }
+    hr.contact {
+        margin: 0;
+    }
+    textarea.form-control {
+        height: 70px;
     }
     /* --------- */
     /*Footer   */
@@ -405,15 +421,18 @@ div.g-recaptcha {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 768px;
-        padding-top: 150px;
+        height: 562px;
+        padding-top: 15px;
+    }
+    br.aboutBR {
+        display: none;
     }
      /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 768px;
-        padding-top: 150px;
+        height: 562px;
+        padding-top: 15px;
     }
     .mission-img.row {
         margin-left: 324px;
@@ -431,8 +450,8 @@ div.g-recaptcha {
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 768px;
-        padding-top: 150px;
+        height: 562px;
+        padding-top: 25px;
     }
     img.img-fluid-contact {
         height: 416px;

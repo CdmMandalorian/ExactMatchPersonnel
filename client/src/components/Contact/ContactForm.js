@@ -94,10 +94,10 @@ const Contactform = () => {
                                         </div>
                                         <div class="g-recaptcha" data-sitekey="6Lfa6YYpAAAAAP8jcVzBuxGZZkC3NiqtG6IMFy8F"></div>
                                         <input
-                                            type="submit" id="button" value="Send" class="btn btn-primary mb-3" style={{ marginTop: 10 }} />
+                                            type="submit" id="button" value="Send" class="btn btn-primary mb-3" style={{ marginTop: 10, marginBottom: 10 }} />
                                     </div>
                                 </div>
-                                <hr></hr>
+                                <hr className="contact"></hr>
                                 <span>
                                     <FontAwesomeIcon icon={faSquarePhone} style={{ color: "#f5b51b" }} />
                                     <h5 className="contact"> 909 418 - 4181 </h5>
