@@ -144,16 +144,16 @@ div.progressQuotes {
 /*About   */
 /* --------- */
 .about-container.container-fluid {
-    height: 985px;
-    padding-top: 100px;
+    height: 713px;
+    padding-top: 15px;
 }
 
 /* --------- */
 /*Mision   */
 /* --------- */
 .mission-container.container-fluid {
-    height: 985px;
-    padding-top: 100px;
+    height: 713px;
+    padding-top: 15px;
 }
 
 .mission-description.row {
@@ -161,19 +161,21 @@ div.progressQuotes {
 }
 
 img.missionImg-fluid {
-    height: 350px;
+    height: 278px;
+    margin-top: -100px;
+    padding-top: 30px;
 }
 
 .mission-img.row {
-    margin-left: 440px;
+    margin-left: 515px;
 }
 
 /* --------- */
 /*Contact   */
 /* --------- */
 #contact.contact-section.container-fluid {
-    height: 985px;
-    padding-top: 100px;
+    height: 713px;
+    padding-top: 25px;
 }
 
 input#FormControlInputEmail.inputContactform-control{
@@ -240,7 +242,7 @@ div.g-recaptcha {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1184px;
+        height: 1073px;
         padding-top: 150px;
     }
     h1.about {
@@ -250,7 +252,7 @@ div.g-recaptcha {
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1184px;
+        height: 1073px;
         padding-top: 150px;
     }
     h1.mission {
@@ -260,14 +262,14 @@ div.g-recaptcha {
     /*Services   */
     /* --------- */
     .cards {
-        height: 1184px;
+        height: 1073px;
         padding-top: 100px;
     }
     /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1184px;
+        height: 1073px;
         padding-top: 150px;
     }
     h1.contactHeading {

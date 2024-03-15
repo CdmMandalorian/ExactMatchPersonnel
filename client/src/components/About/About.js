@@ -35,7 +35,6 @@ function About() {
             <h4 className="about">Our Commitment is to foster a Dynamic and Inclusive job-seeking Experience. Dedicated in Assisting All.</h4>
             <h4 className="about">Experience does not Limit Opportunities.</h4>
             <br className="about1"></br>
-            <br className="about2"></br>
             <Col className="jobs">
               <Container className="jobs">
                 <Row>
