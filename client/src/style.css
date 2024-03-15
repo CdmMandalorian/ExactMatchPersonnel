@@ -136,7 +136,7 @@ div.progressQuotes {
     align-items: center;
     max-height: 50px;
     margin-top: 148px;
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 1px 8px 8px #000;
 }
 
 
@@ -476,13 +476,16 @@ div.g-recaptcha {
     /* --------- */
     h1.headline{
         font-size: 65px;
-        margin-top: -355px;
+        margin-top: -375px;
+    }
+    button.btn-btn--primary.btn--large {
+        margin-top: 14px;
     }
     div.progressQuotes {
-        margin-top: 74px;
+        margin-top: 35px;
         }
     .Typewriter__wrapper {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     div.Typewriter {
         max-width: 800px;
@@ -491,14 +494,15 @@ div.g-recaptcha {
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 620px;
+        height: 414px;
+
     }
     h1.about {
         font-size: 2rem;
         margin-bottom: 0;
     }
     h2.about{
-        font-size: 1.45rem;
+        font-size: 1.40rem;
         margin-bottom: 0;
     }
     h3.about{
@@ -509,32 +513,40 @@ div.g-recaptcha {
         font-size: 1rem;
         margin-bottom: 0;
     }
-    br.about2 {
-        display: none;
+    hr.about {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
-    br.about3 {
-        display: none;
+    .jobs.col {
+        margin-top: -8px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 620px;
+        height: 414px;
     }
     h1.mission {
         font-size: 2rem;
+        margin-bottom: 0;
     }
     h2.mission{
-        font-size: 1.45rem;
+        font-size: 1.40rem;
+        margin-bottom: 0;
     }
     h3.mission{
         font-size: 1.25rem;
+        margin-bottom: 0;
     }
     h4.mission{
         font-size: 1rem;
+        margin-bottom: 0;
     }
     img.missionImg-fluid {
-        height: 142px;
+        height: 230px;
+        margin-top: -130px;
+        padding-top: 88px;
     }
     .mission-img.row {
         margin-left: 385px;
@@ -543,14 +555,14 @@ div.g-recaptcha {
     /*Services   */
     /* --------- */
     .cards {
-        padding-top: 150px;
+        padding-top: 15px;
     }
     /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 620px;
-        padding-top: 150px;
+        height: 414px;
+        padding-top: 25px;
     }
     img.img-fluid-contact {
         height: 400px;

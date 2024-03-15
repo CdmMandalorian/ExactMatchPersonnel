@@ -60,7 +60,7 @@ function About() {
                   ON CALL SUBSTITUTES
                   </Col>
                 </Row>
-                  <hr></hr>
+                  <hr className="about"></hr>
                   <Row>  
                     <Col className="jobIcons_item">
                       WAREHOUSE
