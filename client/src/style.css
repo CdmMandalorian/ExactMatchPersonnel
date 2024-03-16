@@ -565,30 +565,41 @@ div.g-recaptcha {
         padding-top: 25px;
     }
     img.img-fluid-contact {
-        height: 400px;
+        height: 388px;
     }
     h1.contactHeading {
         font-size: 2rem;
         margin-bottom: 0;
     }
     h5.contact {
-        font-size: .95rem;
+        font-size: .80rem;
         margin-bottom: 0;
     }
     div.row.uploadForm {
-        height: 79px;
+        height: 30px;
     }
     textarea.form-control.formInput {
         height: 60px;
     }
     .contact.col-md-7 {
-        height: 460px;
+        height: 383px;
     }
+    .upload-button-wrapper {
+        float: inline-start;
+        width: 205px;
+    }
+    div.g-recaptcha {
+        margin-left: 205px;
+    }
+    
     /* --------- */
     /*Footer   */
     /* --------- */
     .social-media-wrap {
         margin-left: 183px;
+    }
+    hr.contact {
+        margin: 0;
     }
 }
 /*  Medium devices (tablets, 768px and up) */
@@ -603,27 +614,36 @@ div.g-recaptcha {
     div.progressQuotes {
         margin-top: 218px;
     }
+    
     /* --------- */
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1024px;
+        height: 818px;
     }
     /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1168px;
+        height: 818px;
     }
     .mission-img.row {
         margin-left: 208px;
+    }
+    img.missionImg-fluid {
+        height: 321px;
+        margin-top: -119px;
+        padding-top: 70px;
     }
      /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1024px;
-        padding-top: 200px;
+        height: 818px;
+        padding-top: 94px;
+    }
+    div.g-recaptcha {
+        margin-left: 24px;
     }
     img.img-fluid-contact {
         height: 308px;
@@ -655,22 +675,64 @@ div.g-recaptcha {
     }
 }
 @media screen and (width <=767px) { 
+     /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline{
+        margin-top: -307px;
+    }
+    button.btn.btn--primary.btn--large { 
+        margin-top: 7px;
+    }
+    div.progressQuotes {
+        margin-top: 15px;
+    }
+    .Typewriter__wrapper {
+        font-size: 1.1rem;
+    }
+    div.Typewriter {
+        max-width: 638px;
+    }
     /* --------- */
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1168px;
+        height: 951px;
     }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 935px;
+    }
+    img.missionImg-fluid {
+        height: 294px;
+        margin-top: -111px;
+        padding-top: 50px;
+    }
+    .mission-img.row {
+        margin-left: 128px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 935px;
+        padding-top: 25px;
+    }
+    .contact-img.col-md-5 {
+        text-align: center;
+    }
+
 }
 /* Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) { 
     /* --------- */
     /*Navbar   */
     /* --------- */
-    img.img-fluid.logo {
-        height: 125px;
+    /* img.img-fluid.logo {
         width: 125px;
-    }
+    } */
     .nav.container {
         height: 130px;
         margin-bottom: 104px;
@@ -689,49 +751,38 @@ div.g-recaptcha {
     /* --------- */
     h1.headline {
         font-size: 39px;
-        margin-top: -441px;
+        margin-top: -304px;
     }
     div.Typewriter {
-        max-width: 566px;
+        max-width: 466px;
     }
     .Typewriter__wrapper {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     div.progressQuotes {
-        margin-top: 195px;
+        margin-top: 8px;
     }
     /* --------- */
     /*About   */
     /* --------- */
     .about-container.container-fluid {
-        height: 1282px;
-        padding-top: 215px;
+        height: 922px;
     }
      /* --------- */
     /*Mission   */
     /* --------- */
     .mission-container.container-fluid {
-        height: 1177px;
-        padding-top: 215px;
+        height: 912px;
     }
     .mission-img.row {
         margin-left: 110px;
-    }
-    img.missionImg-fluid {
-        height: 248px;
-    }
-     /* --------- */
-    /*Services   */
-    /* --------- */
-    h1.scards {
-        padding-top: 50px;
     }
      /* --------- */
     /*Contact   */
     /* --------- */
     #contact.contact-section.container-fluid {
-        height: 1142px;
-        padding-top: 215px;
+        height: 1005px;
+        padding-top: 25px;
     }
     img.img-fluid-contact {
         height: 381px;
@@ -774,24 +825,29 @@ div.g-recaptcha {
         width: 509px;
     }
 }
-@media screen and (width <=524px) { 
-    a.nav-link {
-        width: 493px;
+@media screen and (width <=535px) { 
+    small.website-rights {
+        font-size: .6rem;
+    }
+}
+@media screen and (width <=529px) { 
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 36px;
     }
 }
 @media screen and (width <=527px) { 
     /* --------- */
     /*Hero Container   */
     /* --------- */
-    h1.headline {
-        font-size: 36px;
-        margin-top: -445px;
-    }
+    
     div.Typewriter {
         max-width: 517px;
     }
     div.progressQuotes {
-        margin-top: 181px;
+        margin-top: 15px;
     }
     /* --------- */
     /*About   */
@@ -820,7 +876,10 @@ div.g-recaptcha {
         font-size: 1rem;
     }
     .mission-img.row {
-        margin-left: 49px;
+        margin-left: 97px;
+    }
+    img.missionImg-fluid {
+        height: 285px;
     }
     /* --------- */
     /*Contact   */
@@ -849,7 +908,11 @@ div.g-recaptcha {
         width: 64px;
     }
 }
-
+@media screen and (width <=524px) { 
+    a.nav-link {
+        width: 493px;
+    }
+}
 @media screen and (width <=508px) { 
     a.nav-link {
         width: 477px;
@@ -866,10 +929,10 @@ div.g-recaptcha {
         max-width: 390px;
     }
     .Typewriter__wrapper {
-        font-size: 1rem;
+        font-size: .9rem;
     }
     div.progressQuotes {
-        margin-top: 185px;
+        margin-top: 15px;
     }
     /* --------- */
     /*About   */
@@ -943,7 +1006,7 @@ div.g-recaptcha {
         max-width: 340px;
     }
     .Typewriter__wrapper {
-        font-size: .9rem;
+        font-size: .8rem;
     }
     /* --------- */
     /*About   */
@@ -974,6 +1037,9 @@ div.g-recaptcha {
     .mission-container.container-fluid {
         height: 798px;
         padding-top: 7px;
+    }
+    .mission-img.row {
+        margin-left: 74px;
     }
     /* --------- */
     /*Contact   */
@@ -1018,22 +1084,12 @@ div.g-recaptcha {
     /* --------- */
     h1.headline {
         font-size: 30px;
-        margin-top: -405px;
-    }
-    .Typewriter__wrapper {
-        font-size: .8rem;
     }
     div.Typewriter {
         max-width: 320px;
     }
-    br.pq1 {
-        display: none;
-    }
-    br.pq2 {
-        display: none;
-    }
     div.progressQuotes {
-        margin-top: 234px;
+        margin-top: 15px;
     }
     /* --------- */
     /*About   */
