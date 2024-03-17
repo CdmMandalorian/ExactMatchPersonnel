@@ -60,10 +60,11 @@ nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
 }
 .navbar-light .navbar-toggler { 
     border-color: #f5b51b;
-    color: #f5b51b;
+    color: #28a745;
 }
 img.img-fluid {
     height: 180px;
+    width: 180px;
     margin-left: 3px;
 }
 /* --------- */
@@ -114,7 +115,9 @@ a.btn-mobile {
     width: 265px;
 
 }
-
+button.navbar-toggler {
+    background-color: #f5B51B;
+}
 .Typewriter__wrapper {
     font-size: 1.6em;
     color: #fff !important;
@@ -783,6 +786,7 @@ div.g-recaptcha {
     }
     img.img-fluid-contact {
         height: 381px;
+        width: 381px;
     }
     div.contact-img.col-md-5 {
         width: 1px;
@@ -894,6 +898,7 @@ div.g-recaptcha {
 
     .footer-logo {
         width: 41px;
+        height: 41px;
     }
     .footer-container {
         height: 95px;
@@ -960,6 +965,7 @@ div.g-recaptcha {
     /* --------- */
 
     .footer-logo {
+        width: 41px;
         width: 41px;
     }
     .footer-container {
@@ -1054,6 +1060,7 @@ div.g-recaptcha {
 
     .footer-logo {
         width: 41px;
+        height: 41px;
     }
     .footer-container {
         height: 95px;
@@ -1156,6 +1163,7 @@ div.g-recaptcha {
 
     .footer-logo {
         width: 41px;
+        height: 41px;
     }
     .footer-container {
         height: 95px;
@@ -1258,6 +1266,7 @@ div.g-recaptcha {
 
     .footer-logo {
         width: 41px;
+        height: 41px;
     }
     .footer-container {
         height: 95px;
@@ -1368,6 +1377,7 @@ div.g-recaptcha {
     }
     img.img-fluid-contact {
         height: 367px;
+        width: 367px;
     }
     div.g-recaptcha{
         margin-left: -11px;
@@ -1378,6 +1388,7 @@ div.g-recaptcha {
 
     .footer-logo {
         width: 41px;
+        height: 41px;
     }
     .footer-container {
         height: 95px;
