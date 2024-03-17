@@ -1,6 +1,4 @@
-import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
-import './style.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWarehouse } from "@fortawesome/free-solid-svg-icons";
 import { faBuildingLock } from "@fortawesome/free-solid-svg-icons";

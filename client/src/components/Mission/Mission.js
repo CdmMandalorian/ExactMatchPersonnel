@@ -1,6 +1,4 @@
-import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
-import './style.css';
 import logo from '../../Assets/navbarlogo/EMPlogo2.png'
 
 function Mission() {

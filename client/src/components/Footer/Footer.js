@@ -1,4 +1,3 @@
-import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
 import logo from '../../Assets/navbarlogo/EMPlogo2.png'

@@ -150,7 +150,13 @@ div.progressQuotes {
     height: 713px;
     padding-top: 15px;
 }
+div.about-description.row{
+    text-align: center;
+}
 
+div.about-container.container-fluid {
+    background-color: #110e1b;
+}
 /* --------- */
 /*Mision   */
 /* --------- */
@@ -172,7 +178,9 @@ img.missionImg-fluid {
 .mission-img.row {
     margin-left: 515px;
 }
-
+div.mission-container.container-fluid {
+    background-color: #110e1b;
+}
 /* --------- */
 /*Contact   */
 /* --------- */
