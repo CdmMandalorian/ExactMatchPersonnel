@@ -15,7 +15,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>Exact Match Personnel <img src={logo} alt='minilogo' height='12px' /> &copy; {new Date().getFullYear()} AEG CODES Production. All Rights Reserved.&reg;</small>
+          <small class='website-rights'>Exact Match Personnel <img src={logo} alt='minilogo' height='12px' width='12px' /> &copy; {new Date().getFullYear()} AEG CODES Production. All Rights Reserved.&reg;</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
