@@ -142,7 +142,6 @@ div.progressQuotes {
     text-shadow: 1px 8px 8px #000;
 }
 
-
 /* --------- */
 /*About   */
 /* --------- */
@@ -1421,5 +1420,90 @@ div.g-recaptcha {
 @media screen and (width <=325px) { 
     a.nav-link {
         width: 295px;
+    }
+}
+@media screen and (width <=320px) { 
+    /* --------- */
+    /*Hero Container   */
+    /* --------- */
+    h1.headline {
+        font-size: 22px;
+        margin-top: -258px;
+    }
+    .Typewriter__wrapper {
+        font-size: .6rem;
+    }
+    div.progressQuotes {
+        margin-top: 24px;
+    }
+     /* --------- */
+    /*About   */
+    /* --------- */
+    .about-container.container-fluid {
+        height: 801px;
+        padding-top: 33px;
+    }
+    h1.about {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    h2.about{
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    h3.about{
+        font-size: 1.05rem;
+        margin-bottom: 0;
+    }
+    h4.about{
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+    /* --------- */
+    /*Mission   */
+    /* --------- */
+    .mission-container.container-fluid {
+        height: 699px;
+        padding-top: 33px;
+    }
+    .mission-img.row {
+        margin-left: 10px;
+    }
+    h1.mission {
+        font-size: 1.8rem;
+    }
+    h2.mission{
+        font-size: 1.25rem;
+    }
+    h3.mission{
+        font-size: 1.05rem;
+    }
+    h4.mission{
+        font-size: .8rem;
+    }
+    .mission-img.row {
+        margin-left: 6px;
+    }
+    /* --------- */
+    /*Contact   */
+    /* --------- */
+    #contact.contact-section.container-fluid {
+        height: 1072px;
+        padding-top: 33px;
+    }
+    h5.contact {
+        font-size: .80rem;
+    }
+    img.img-fluid-contact {
+        height: 348px;
+        width: 348px;
+        margin-left: 3px;
+        padding-left: 24px;
+    }
+    input#Resume.is-invalid-input {
+        width: 240px;
+    }
+    div.g-recaptcha{
+        margin-left: -28px;
     }
 }
