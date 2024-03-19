@@ -18,6 +18,7 @@ function CollapsibleExample() {
             <Nav.Link href="/mission">MISSION</Nav.Link>
             <Nav.Link href="/services">SERVICES</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
+            <Nav.Link href="/https://form.jotform.com/240776664139062">EMPLOYERS</Nav.Link>
             <Nav.Link href="https://form.jotform.com/240756041423146">APPLY</Nav.Link>
           </Nav>
         </Navbar.Collapse>
