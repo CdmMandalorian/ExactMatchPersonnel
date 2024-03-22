@@ -10,10 +10,6 @@ function Mission() {
         </h1>
         <Row className='mission-description'>
           <Col style={{ color: 'white' }}>
-            <h3>
-              Exact Match Personnel
-            </h3>
-            <h3 className="mission">Mission</h3>
             <h4 className="mission">Empower individuals at every stage of their career journey by providing unparalleled support in connecting talent with rewarding employment opportunities. </h4>
             <h4 className="mission">We believe that everyone, regardless of their level of experience, deserves the chance to find a job that not only matches their skills but also aligns with their aspirations. </h4>
             <h4 className="mission">At the heart of our mission is the belief that the right job can transform lives. We strive to create a platform that transcends traditional recruitment paradigms, ensuring that every candidate, regardless of their background, finds an exact match. </h4>

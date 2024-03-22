@@ -1,14 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWarehouse } from "@fortawesome/free-solid-svg-icons";
-import { faBuildingLock } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate, faWarehouse } from "@fortawesome/free-solid-svg-icons";
 import { faIndustry } from "@fortawesome/free-solid-svg-icons";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faPrint } from "@fortawesome/free-solid-svg-icons";
 import { faBreadSlice } from "@fortawesome/free-solid-svg-icons";
 import { faBoxesStacked } from "@fortawesome/free-solid-svg-icons";
-import { faUserShield } from "@fortawesome/free-solid-svg-icons";
+import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 import { faCarSide } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -24,7 +23,7 @@ function About() {
             <h2 className="about">Exact Match Personnel</h2>
             <h3 className="about">EMPLOYERS</h3>
             <h3 className="about">Looking for Workforce?</h3>
-            <h4 className="about">E M P is a Staffing Agency that Specializes Matching the Perfect Contender into Your Environment.</h4>
+            <h4 className="about">Exact Match Personnel is a Staffing Agency that Specializes Matching the Perfect Contender into Your Environment.</h4>
             <h4 className="about">Connecting with our Team, We Develop a Comprehensive Understanding of our Staffs' Skills, Aspirations, Needs, and Repertoire to Match Your Exact Organization.</h4>
             <br className="aboutBR"></br>
             <h3 className="about">EMPLOYEES</h3>
@@ -67,10 +66,10 @@ function About() {
                           <FontAwesomeIcon icon={faBoxesStacked} style={{color: "#f5b51b",}} />
                     </Col>
                     <Col className="jobIcons_item">
-                      SECURITY
+                      SPECIALTY TRADES
                         <br></br>
-                          <FontAwesomeIcon icon={faUserShield} style={{color: "#f5b51b", paddingRight: "8%"}} />
-                          <FontAwesomeIcon icon={faBuildingLock} style={{color: "#f5b51b", paddingRight: "2%"}} />
+                          <FontAwesomeIcon icon={faUserGear} style={{color: "#f5b51b", paddingRight: "8%"}} />
+                          <FontAwesomeIcon icon={faCertificate} style={{color: "#f5b51b", paddingRight: "2%"}} />
                     </Col>
                     <Col className="jobIcons_item">
                       MANUFACTURING
