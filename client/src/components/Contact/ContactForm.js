@@ -100,9 +100,10 @@ const Contactform = () => {
                                 <hr className="contact"></hr>
                                 <span>
                                     <FontAwesomeIcon icon={faSquarePhone} style={{ color: "#f5b51b" }} />
-                                    <h5 className="contact"> 909 260 - 5017 </h5>
+                                    <h5 className="contact"> 909 781 - 8783 </h5>
                                     <FontAwesomeIcon icon={faMapLocationDot} style={{ color: "#f5b51b" }} />
-                                    <h5 className="contact"> Southern California </h5>
+                                    <h5 className="contact"> 2029 S Business Pkwy </h5>
+                                    <h5 className="contact"> Ontario, CA 91761 </h5>
                                     <FontAwesomeIcon icon={faEnvelope} style={{ color: "#f5b51b" }} />
                                     <h5 className="contact">Eric@exactmatchpersonnel.com</h5>
                                 </span>

@@ -340,6 +340,23 @@ div.g-recaptcha {
         margin-right: 8px;
     }
 }
+@media (min-width: 1281px) and (max-width: 1366px) {
+    .hero-container.container{
+        max-width: 1359px;
+    }
+    img.img-fluid.logo{
+        margin-top: 340px;
+    }
+    h5.about{
+        font-size: 1.15rem;
+    }
+    h4.about{
+        font-size: .95rem;
+    }
+    h3.about{
+        font-size: 1.65rem;
+    }
+}
 /*  X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 993px) and (max-width: 1200px) {
     /* --------- */
